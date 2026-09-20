@@ -1,0 +1,28 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Build and packaged output
+build/
+dist/
+*.exe
+*.dll
+*.pyd
+*.pkg
+
+# Local analysis environments and generated scan data
+.analysis_deps/
+scans/
+il2cpp_dump/
+tools/Il2CppDumper-*/
+tools/Il2CppDumper-*.zip
+*.bin
+
+# Local backups, logs, and editor state
+backups/
+*.log
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

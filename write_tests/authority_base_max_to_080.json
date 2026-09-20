@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "mode": "checked-float32-batch-write",
+  "created_local": "2026-08-31 00:24:18",
+  "process": "After Inc. Revival.exe",
+  "pid": 30376,
+  "items": [
+    {
+      "name": "authority_max",
+      "address": "0x00000232EA0582F8",
+      "before": 0.5099999904632568,
+      "after": 0.800000011920929,
+      "before_hex": "5c8f023f",
+      "after_hex": "cdcc4c3f"
+    },
+    {
+      "name": "authority_base",
+      "address": "0x00000232EA0582FC",
+      "before": 0.5,
+      "after": 0.800000011920929,
+      "before_hex": "0000003f",
+      "after_hex": "cdcc4c3f"
+    }
+  ],
+  "rollback_on_write_failure": true
+}

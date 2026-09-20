@@ -1,0 +1,13 @@
+{
+  "format": 1,
+  "mode": "checked-int32-write",
+  "created_local": "2026-08-31 00:23:52",
+  "process": "After Inc. Revival.exe",
+  "pid": 30376,
+  "address": "0x00000232EA058340",
+  "before": 56,
+  "after": 117,
+  "before_hex": "38000000",
+  "after_hex": "75000000",
+  "restore_command": "write-int32 --process \"After Inc. Revival.exe\" --address 0x00000232EA058340 --expected 117 --value 56 --confirm WRITE-ONE-INT32"
+}

@@ -1,0 +1,13 @@
+{
+  "format": 1,
+  "mode": "checked-float32-write",
+  "created_local": "2026-08-30 23:52:31",
+  "process": "After Inc. Revival.exe",
+  "pid": 30376,
+  "address": "0x00000232EA35ABE0",
+  "before": 0.0,
+  "after": 1.0,
+  "before_hex": "00000000",
+  "after_hex": "0000803f",
+  "restore_command": "write-float32 --process \"After Inc. Revival.exe\" --address 0x00000232EA35ABE0 --expected 1.0 --value 0.0 --confirm WRITE-ONE-FLOAT32"
+}

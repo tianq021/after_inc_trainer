@@ -1,0 +1,156 @@
+{
+  "format": 1,
+  "mode": "locate-world-settlement-read-only",
+  "created_local": "2026-08-31 00:12:16",
+  "process": "After Inc. Revival.exe",
+  "pid": 30376,
+  "metadata_layout": "build_24931318_metadata_v31",
+  "scanned_bytes": 2869424128,
+  "elapsed_seconds": 30.894,
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "settlement": "0x00000232EA058000",
+      "productions": {
+        "none": {
+          "object": "0x00000232DE39A000",
+          "resource_type": 0
+        },
+        "manpower": {
+          "object": "0x00000232EA35A960",
+          "resource_type": 1,
+          "total_address": "0x00000232EA35ABE0",
+          "total": 3.0
+        },
+        "food_group": {
+          "object": "0x00000232F5456A80",
+          "resource_type": 2
+        },
+        "forage": {
+          "object": "0x00000232DDF3C320",
+          "resource_type": 3,
+          "total_address": "0x00000232DDF3C5A0",
+          "total": 0.0
+        },
+        "grain": {
+          "object": "0x0000023244645960",
+          "resource_type": 4,
+          "total_address": "0x0000023244645BE0",
+          "total": 0.0
+        },
+        "fruit": {
+          "object": "0x0000023244645320",
+          "resource_type": 5,
+          "total_address": "0x00000232446455A0",
+          "total": 0.0
+        },
+        "vegetable": {
+          "object": "0x00000232EA0A4C80",
+          "resource_type": 6,
+          "total_address": "0x00000232EA0A4F00",
+          "total": 0.0
+        },
+        "deer": {
+          "object": "0x00000232EA0A4640",
+          "resource_type": 7,
+          "total_address": "0x00000232EA0A48C0",
+          "total": 0.0
+        },
+        "sheep": {
+          "object": "0x00000232EA0B3960",
+          "resource_type": 8,
+          "total_address": "0x00000232EA0B3BE0",
+          "total": 0.0
+        },
+        "cow": {
+          "object": "0x00000232EA0A4000",
+          "resource_type": 9,
+          "total_address": "0x00000232EA0A4280",
+          "total": 0.0
+        },
+        "fuel_group": {
+          "object": "0x00000232F54567E0",
+          "resource_type": 10
+        },
+        "firewood": {
+          "object": "0x00000232EA0B3000",
+          "resource_type": 11,
+          "total_address": "0x00000232EA0B3280",
+          "total": 2.8702616691589355
+        },
+        "coal": {
+          "object": "0x00000232EA0C8960",
+          "resource_type": 12,
+          "total_address": "0x00000232EA0C8BE0",
+          "total": 2.4000000953674316
+        },
+        "water": {
+          "object": "0x00000232EA204640",
+          "resource_type": 13,
+          "total_address": "0x00000232EA2048C0",
+          "total": 2.9884254932403564
+        },
+        "construction_group": {
+          "object": "0x00000232F5456540",
+          "resource_type": 14
+        },
+        "starter": {
+          "object": "0x00000232EA0C8000",
+          "resource_type": 15,
+          "total_address": "0x00000232EA0C8280",
+          "total": 0.0
+        },
+        "wood": {
+          "object": "0x00000232EA0E4960",
+          "resource_type": 16,
+          "total_address": "0x00000232EA0E4BE0",
+          "total": 1.0
+        },
+        "stone": {
+          "object": "0x00000232EA0E4320",
+          "resource_type": 17,
+          "total_address": "0x00000232EA0E45A0",
+          "total": 0.0
+        },
+        "clay": {
+          "object": "0x00000232EA104C80",
+          "resource_type": 18,
+          "total_address": "0x00000232EA104F00",
+          "total": 0.0
+        },
+        "scrap": {
+          "object": "0x00000232EA104640",
+          "resource_type": 19,
+          "total_address": "0x00000232EA1048C0",
+          "total": 0.0
+        },
+        "ore": {
+          "object": "0x00000232EA128960",
+          "resource_type": 20,
+          "total_address": "0x00000232EA128BE0",
+          "total": 0.0
+        },
+        "metal": {
+          "object": "0x00000232EA104000",
+          "resource_type": 21,
+          "total_address": "0x00000232EA104280",
+          "total": 0.0
+        },
+        "morale_group": {
+          "object": "0x00000232F5554A80",
+          "resource_type": 57
+        },
+        "authority": {
+          "object": "0x00000232EA39F000",
+          "resource_type": 69,
+          "total_address": "0x00000232EA39F280",
+          "total": 0.0
+        },
+        "housing_group": {
+          "object": "0x00000232F55547E0",
+          "resource_type": 32
+        }
+      }
+    }
+  ]
+}
