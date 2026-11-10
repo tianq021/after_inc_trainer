@@ -1,0 +1,9 @@
+# After Inc: Revival 修改器 26049821.4 文件校验
+# 游戏构建 26049821（1.0.2.2），Steam App ID 3337140；打包日期 2026-10-24
+# 仓库只收录当前成品 EXE，历史版本 EXE 不随仓库上传，其哈希见 versions/ 与 docs/history/ 记录。
+#
+# 校验方法（Windows PowerShell）：
+#   Get-FileHash .\dist\AfterIncRevivalTrainer_CN.exe -Algorithm SHA256
+# 或 Git Bash / Linux（在仓库根目录执行）：
+#   sha256sum -c SHA256SUMS.txt
+9f402ca959783f41e986ab37cdd0a016c9fb98508f7628602c580f5029171756  dist/AfterIncRevivalTrainer_CN.exe

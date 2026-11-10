@@ -14,6 +14,10 @@
 
 经验问题沿用 26049821.3 的修复：通过“升级机会 +1”生成游戏原生升级图标，再由玩家在游戏里选择奖励。详细操作、拒绝码及限制见[当前版本说明](versions/26049821.4_game26049821/README.md)。
 
+## 文件校验
+
+成品 EXE 的 SHA-256 记录在 [SHA256SUMS.txt](SHA256SUMS.txt)：`9f402ca959783f41e986ab37cdd0a016c9fb98508f7628602c580f5029171756`。PowerShell 校验：`Get-FileHash .\dist\AfterIncRevivalTrainer_CN.exe -Algorithm SHA256`。
+
 ## 当前功能
 
 - 资源、耐心、权威修改与锁定，战士快速移动。
