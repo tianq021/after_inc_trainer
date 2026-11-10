@@ -19,6 +19,12 @@ tools/Il2CppDumper-*/
 tools/Il2CppDumper-*.zip
 *.bin
 
+# Native build intermediates (rebuild with native/build*.cmd)
+native/*.obj
+native/*.lib
+native/*.exp
+native/*.bak*
+
 # Local backups, logs, and editor state
 backups/
 *.log

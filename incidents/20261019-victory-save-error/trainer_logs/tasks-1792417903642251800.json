@@ -1,0 +1,21 @@
+{
+  "base": 140733087350784,
+  "count": 5,
+  "generated": 0,
+  "calls": 0,
+  "error": 0,
+  "seeds": [
+    24606,
+    24729,
+    22395,
+    26443,
+    20612
+  ],
+  "last_list": 0,
+  "activity": 0,
+  "build": 26049821,
+  "pid": 23952,
+  "active": true,
+  "backup": "C:\\Users\\hp\\AppData\\Local\\AfterIncTrainer\\backups\\20261019-215143-before-tasks",
+  "action": "add"
+}

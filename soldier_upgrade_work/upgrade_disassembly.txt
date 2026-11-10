@@ -1,0 +1,877 @@
+
+===== com.ndemiccreations.survivors.GameEvents$$SoldierUpgradeTrigger RVA 0x651580 size<=0x280 =====
+0x00651580  push     rbx
+0x00651582  push     rdi
+0x00651583  sub      rsp, 0x68
+0x00651587  cmp      byte ptr [rip + 0x450cc55], 0 ; RIP=>RVA 0x4B5E1E3 [.data]
+0x0065158E  mov      rbx, r9
+0x00651591  mov      rdi, rcx
+0x00651594  jne      0x1806515c1
+0x00651596  lea      rcx, [rip + 0x422ac73] ; RIP=>RVA 0x487C210 [.data]
+0x0065159D  call     0x180470630 ; call RVA 0x470630
+0x006515A2  lea      rcx, [rip + 0x4261207] ; RIP=>RVA 0x48B27B0 [.data]
+0x006515A9  call     0x180470630 ; call RVA 0x470630
+0x006515AE  lea      rcx, [rip + 0x423ccb3] ; RIP=>RVA 0x488E268 [.data]
+0x006515B5  call     0x180470630 ; call RVA 0x470630
+0x006515BA  mov      byte ptr [rip + 0x450cc22], 1 ; RIP=>RVA 0x4B5E1E3 [.data]
+0x006515C1  mov      rcx, qword ptr [rdi + 0x38]
+0x006515C5  xor      edx, edx
+0x006515C7  mov      qword ptr [rsp + 0x90], rsi
+0x006515CF  call     0x18066c850 ; call RVA 0x66C850 com.ndemiccreations.survivors.Condition$$op_Implicit
+0x006515D4  test     al, al
+0x006515D6  jne      0x180651771
+0x006515DC  mov      rcx, qword ptr [rdi + 0x30]
+0x006515E0  xor      edx, edx
+0x006515E2  call     0x18066c850 ; call RVA 0x66C850 com.ndemiccreations.survivors.Condition$$op_Implicit
+0x006515E7  test     al, al
+0x006515E9  jne      0x18065170e
+0x006515EF  mov      rcx, qword ptr [rdi + 0x28]
+0x006515F3  xor      edx, edx
+0x006515F5  call     0x18066c850 ; call RVA 0x66C850 com.ndemiccreations.survivors.Condition$$op_Implicit
+0x006515FA  test     al, al
+0x006515FC  jne      0x1806516c7
+0x00651602  mov      qword ptr [rsp + 0x88], rbp
+0x0065160A  mov      qword ptr [rsp + 0x60], r14
+0x0065160F  mov      rcx, qword ptr [rdi + 0x98]
+0x00651616  xor      edx, edx
+0x00651618  call     0x18066c850 ; call RVA 0x66C850 com.ndemiccreations.survivors.Condition$$op_Implicit
+0x0065161D  xor      esi, esi
+0x0065161F  test     al, al
+0x00651621  je       0x1806516a8
+0x00651627  mov      rax, qword ptr [rdi + 0x20]
+0x0065162B  test     rax, rax
+0x0065162E  je       0x1806517ed
+0x00651634  mov      rcx, qword ptr [rip + 0x422abd5] ; RIP=>RVA 0x487C210 [.data]
+0x0065163B  mov      rbp, qword ptr [rax + 0xc0]
+0x00651642  call     0x1804708c0 ; call RVA 0x4708C0
+0x00651647  mov      r8, qword ptr [rip + 0x4261162] ; RIP=>RVA 0x48B27B0 [.data]
+0x0065164E  xor      r9d, r9d
+0x00651651  mov      rdx, rbp
+0x00651654  mov      rcx, rax
+0x00651657  mov      r14, rax
+0x0065165A  call     0x1805e24d0 ; call RVA 0x5E24D0 com.ndemiccreations.survivors.BaseGameEvents.EventGenerator$$.ctor
+0x0065165F  mov      r9, qword ptr [rdi + 0x20]
+0x00651663  test     r9, r9
+0x00651666  je       0x1806517ed
+0x0065166C  mov      r9, qword ptr [r9 + 0x90]
+0x00651673  test     r9, r9
+0x00651676  je       0x1806517ed
+0x0065167C  test     rbp, rbp
+0x0065167F  je       0x1806517ed
+0x00651685  mov      r9, qword ptr [r9 + 0x20]
+0x00651689  lea      rcx, [rsp + 0x40]
+0x0065168E  mov      qword ptr [rsp + 0x30], rsi
+0x00651693  mov      r8, r14
+0x00651696  mov      byte ptr [rsp + 0x28], 1
+0x0065169B  mov      rdx, rbp
+0x0065169E  mov      qword ptr [rsp + 0x20], rsi
+0x006516A3  call     0x1805d9fb0 ; call RVA 0x5D9FB0 com.ndemiccreations.survivors.BaseGameEvents$$TryFire
+0x006516A8  mov      rbp, qword ptr [rsp + 0x88]
+0x006516B0  movzx    eax, si
+0x006516B3  mov      r14, qword ptr [rsp + 0x60]
+0x006516B8  mov      rsi, qword ptr [rsp + 0x90]
+0x006516C0  add      rsp, 0x68
+0x006516C4  pop      rdi
+0x006516C5  pop      rbx
+0x006516C6  ret      
+0x006516C7  mov      rax, qword ptr [rdi + 0x20]
+0x006516CB  test     rax, rax
+0x006516CE  je       0x1806517f3
+0x006516D4  mov      rcx, qword ptr [rax + 0x48]
+0x006516D8  test     rcx, rcx
+0x006516DB  je       0x1806517f3
+0x006516E1  mov      rcx, qword ptr [rcx + 0x20]
+0x006516E5  test     rcx, rcx
+0x006516E8  je       0x1806517f3
+0x006516EE  xor      esi, esi
+0x006516F0  mov      r9b, 1
+0x006516F3  mov      qword ptr [rsp + 0x28], rsi
+0x006516F8  movzx    r8d, r9b
+0x006516FC  mov      rdx, rbx
+0x006516FF  mov      byte ptr [rsp + 0x20], 1
+0x00651704  call     0x1807c8110 ; call RVA 0x7C8110 com.ndemiccreations.survivors.MovingSoldierManager$$HasSoldier
+0x00651709  jmp      0x1806517b1
+0x0065170E  mov      rax, qword ptr [rdi + 0x20]
+0x00651712  test     rax, rax
+0x00651715  je       0x1806517f9
+0x0065171B  mov      rcx, qword ptr [rax + 0x48]
+0x0065171F  test     rcx, rcx
+0x00651722  je       0x1806517f9
+0x00651728  mov      rdx, qword ptr [rcx + 0x20]
+0x0065172C  test     rdx, rdx
+0x0065172F  je       0x1806517f9
+0x00651735  movzx    edx, byte ptr [rdx + 0x160]
+0x0065173C  lea      rcx, [rsp + 0x80]
+0x00651744  mov      r8, qword ptr [rip + 0x423cb1d] ; RIP=>RVA 0x488E268 [.data]
+0x0065174B  xor      esi, esi
+0x0065174D  mov      word ptr [rsp + 0x80], si
+0x00651755  call     0x1814a39a0 ; call RVA 0x14A39A0 System.Nullable<bool>$$.ctor | System.Nullable<byte>$$.ctor | System.Nullable<ByteEnum>$$.ctor | System.Nullable<JsonNodeOptions>$$.ctor | System.Nullable<sbyte>$$.ctor | Syste
+0x0065175A  movzx    eax, word ptr [rsp + 0x80]
+0x00651762  mov      rsi, qword ptr [rsp + 0x90]
+0x0065176A  add      rsp, 0x68
+0x0065176E  pop      rdi
+0x0065176F  pop      rbx
+0x00651770  ret      
+0x00651771  mov      rax, qword ptr [rdi + 0x20]
+0x00651775  test     rax, rax
+0x00651778  je       0x1806517e7
+0x0065177A  cmp      qword ptr [rax + 0x80], 0
+0x00651782  je       0x1806517ad
+0x00651784  mov      rcx, qword ptr [rax + 0x80]
+0x0065178B  cmp      qword ptr [rcx + 0x18], 0
+0x00651790  je       0x1806517ad
+0x00651792  mov      rdx, qword ptr [rcx + 0x18]
+0x00651796  xor      r8d, r8d
+0x00651799  mov      rcx, qword ptr [rdi + 0xe0]
+0x006517A0  mov      rdx, qword ptr [rdx + 0x38]
+0x006517A4  call     0x18226f9a0 ; call RVA 0x226F9A0 System.String$$Equals | System.String$$op_Equality
+0x006517A9  xor      al, 1
+0x006517AB  jmp      0x1806517af
+0x006517AD  mov      al, 1
+0x006517AF  xor      esi, esi
+0x006517B1  mov      r8, qword ptr [rip + 0x423cab0] ; RIP=>RVA 0x488E268 [.data]
+0x006517B8  lea      rcx, [rsp + 0x80]
+0x006517C0  movzx    edx, al
+0x006517C3  mov      word ptr [rsp + 0x80], si
+0x006517CB  call     0x1814a39a0 ; call RVA 0x14A39A0 System.Nullable<bool>$$.ctor | System.Nullable<byte>$$.ctor | System.Nullable<ByteEnum>$$.ctor | System.Nullable<JsonNodeOptions>$$.ctor | System.Nullable<sbyte>$$.ctor | Syste
+0x006517D0  movzx    eax, word ptr [rsp + 0x80]
+0x006517D8  mov      rsi, qword ptr [rsp + 0x90]
+0x006517E0  add      rsp, 0x68
+0x006517E4  pop      rdi
+0x006517E5  pop      rbx
+0x006517E6  ret      
+0x006517E7  call     0x180470920 ; call RVA 0x470920
+0x006517EC  int3     
+0x006517ED  call     0x180470920 ; call RVA 0x470920
+0x006517F2  int3     
+0x006517F3  call     0x180470920 ; call RVA 0x470920
+0x006517F8  int3     
+0x006517F9  call     0x180470920 ; call RVA 0x470920
+0x006517FE  int3     
+0x006517FF  int3     
+
+===== com.ndemiccreations.survivors.GameEvents$$SoldierUpgrade RVA 0x651800 size<=0x8A0 =====
+0x00651800  mov      qword ptr [rsp + 0x10], rbx
+0x00651805  mov      qword ptr [rsp + 0x20], rsi
+0x0065180A  mov      qword ptr [rsp + 8], rcx
+0x0065180F  push     rdi
+0x00651810  push     r12
+0x00651812  push     r13
+0x00651814  push     r14
+0x00651816  push     r15
+0x00651818  sub      rsp, 0x90
+0x0065181F  mov      rbx, r8
+0x00651822  mov      rsi, rcx
+0x00651825  cmp      byte ptr [rip + 0x450c9b8], 0 ; RIP=>RVA 0x4B5E1E4 [.data]
+0x0065182C  jne      0x18065197d
+0x00651832  lea      rcx, [rip + 0x4296c6f] ; RIP=>RVA 0x48E84A8 [.data]
+0x00651839  call     0x180470630 ; call RVA 0x470630
+0x0065183E  lea      rcx, [rip + 0x4288063] ; RIP=>RVA 0x48D98A8 [.data]
+0x00651845  call     0x180470630 ; call RVA 0x470630
+0x0065184A  lea      rcx, [rip + 0x422ee07] ; RIP=>RVA 0x4880658 [.data]
+0x00651851  call     0x180470630 ; call RVA 0x470630
+0x00651856  lea      rcx, [rip + 0x424b243] ; RIP=>RVA 0x489CAA0 [.data]
+0x0065185D  call     0x180470630 ; call RVA 0x470630
+0x00651862  lea      rcx, [rip + 0x424b33f] ; RIP=>RVA 0x489CBA8 [.data]
+0x00651869  call     0x180470630 ; call RVA 0x470630
+0x0065186E  lea      rcx, [rip + 0x424b433] ; RIP=>RVA 0x489CCA8 [.data]
+0x00651875  call     0x180470630 ; call RVA 0x470630
+0x0065187A  lea      rcx, [rip + 0x4241107] ; RIP=>RVA 0x4892988 [.data]
+0x00651881  call     0x180470630 ; call RVA 0x470630
+0x00651886  lea      rcx, [rip + 0x42443ab] ; RIP=>RVA 0x4895C38 [.data]
+0x0065188D  call     0x180470630 ; call RVA 0x470630
+0x00651892  lea      rcx, [rip + 0x424b8d7] ; RIP=>RVA 0x489D170 [.data]
+0x00651899  call     0x180470630 ; call RVA 0x470630
+0x0065189E  lea      rcx, [rip + 0x424bbd3] ; RIP=>RVA 0x489D478 [.data]
+0x006518A5  call     0x180470630 ; call RVA 0x470630
+0x006518AA  lea      rcx, [rip + 0x424b7b7] ; RIP=>RVA 0x489D068 [.data]
+0x006518B1  call     0x180470630 ; call RVA 0x470630
+0x006518B6  lea      rcx, [rip + 0x424becb] ; RIP=>RVA 0x489D788 [.data]
+0x006518BD  call     0x180470630 ; call RVA 0x470630
+0x006518C2  lea      rcx, [rip + 0x424bfb7] ; RIP=>RVA 0x489D880 [.data]
+0x006518C9  call     0x180470630 ; call RVA 0x470630
+0x006518CE  lea      rcx, [rip + 0x42082d3] ; RIP=>RVA 0x4859BA8 [.data]
+0x006518D5  call     0x180470630 ; call RVA 0x470630
+0x006518DA  lea      rcx, [rip + 0x423c987] ; RIP=>RVA 0x488E268 [.data]
+0x006518E1  call     0x180470630 ; call RVA 0x470630
+0x006518E6  lea      rcx, [rip + 0x4234e33] ; RIP=>RVA 0x4886720 [.data]
+0x006518ED  call     0x180470630 ; call RVA 0x470630
+0x006518F2  lea      rcx, [rip + 0x42508e7] ; RIP=>RVA 0x48A21E0 [.data]
+0x006518F9  call     0x180470630 ; call RVA 0x470630
+0x006518FE  lea      rcx, [rip + 0x425d9c3] ; RIP=>RVA 0x48AF2C8 [.data]
+0x00651905  call     0x180470630 ; call RVA 0x470630
+0x0065190A  lea      rcx, [rip + 0x428a6d7] ; RIP=>RVA 0x48DBFE8 [.data]
+0x00651911  call     0x180470630 ; call RVA 0x470630
+0x00651916  lea      rcx, [rip + 0x425dab3] ; RIP=>RVA 0x48AF3D0 [.data]
+0x0065191D  call     0x180470630 ; call RVA 0x470630
+0x00651922  lea      rcx, [rip + 0x424a727] ; RIP=>RVA 0x489C050 [.data]
+0x00651929  call     0x180470630 ; call RVA 0x470630
+0x0065192E  lea      rcx, [rip + 0x42195db] ; RIP=>RVA 0x486AF10 [.data]
+0x00651935  call     0x180470630 ; call RVA 0x470630
+0x0065193A  lea      rcx, [rip + 0x4202e0f] ; RIP=>RVA 0x4854750 [.data]
+0x00651941  call     0x180470630 ; call RVA 0x470630
+0x00651946  lea      rcx, [rip + 0x429cf03] ; RIP=>RVA 0x48EE850 [.data]
+0x0065194D  call     0x180470630 ; call RVA 0x470630
+0x00651952  lea      rcx, [rip + 0x4241a77] ; RIP=>RVA 0x48933D0 [.data]
+0x00651959  call     0x180470630 ; call RVA 0x470630
+0x0065195E  lea      rcx, [rip + 0x42780e3] ; RIP=>RVA 0x48C9A48 [.data]
+0x00651965  call     0x180470630 ; call RVA 0x470630
+0x0065196A  lea      rcx, [rip + 0x426416f] ; RIP=>RVA 0x48B5AE0 [.data]
+0x00651971  call     0x180470630 ; call RVA 0x470630
+0x00651976  mov      byte ptr [rip + 0x450c867], 1 ; RIP=>RVA 0x4B5E1E4 [.data]
+0x0065197D  xorps    xmm0, xmm0
+0x00651980  xor      eax, eax
+0x00651982  movups   xmmword ptr [rsp + 0x30], xmm0
+0x00651987  mov      qword ptr [rsp + 0x40], rax
+0x0065198C  mov      rcx, qword ptr [rip + 0x425d935] ; RIP=>RVA 0x48AF2C8 [.data]
+0x00651993  call     0x1804708c0 ; call RVA 0x4708C0
+0x00651998  mov      r15, rax
+0x0065199B  xor      edx, edx
+0x0065199D  mov      rcx, rax
+0x006519A0  call     0x180549d80 ; call RVA 0x549D80 CustomAxisValueFormatterExample.PriceValueFormatter$$.ctor | LayerEventSetting$$.ctor | CancellableAction.<>c__DisplayClass0_0$$.ctor | CancellableAction$$.ctor | EnemyParticle.
+0x006519A5  mov      qword ptr [rsp + 0x70], r15
+0x006519AA  test     r15, r15
+0x006519AD  je       0x18065206a
+0x006519B3  mov      qword ptr [r15 + 0x10], rbx
+0x006519B7  lea      rcx, [r15 + 0x10]
+0x006519BB  mov      rdx, rbx
+0x006519BE  call     0x18046f800 ; call RVA 0x46F800
+0x006519C3  mov      qword ptr [r15 + 0x18], rsi
+0x006519C7  lea      rcx, [r15 + 0x18]
+0x006519CB  mov      rdx, rsi
+0x006519CE  call     0x18046f800 ; call RVA 0x46F800
+0x006519D3  xor      edx, edx
+0x006519D5  mov      rcx, qword ptr [rsi + 0x38]
+0x006519D9  call     0x18066c850 ; call RVA 0x66C850 com.ndemiccreations.survivors.Condition$$op_Implicit
+0x006519DE  test     al, al
+0x006519E0  jne      0x180652011
+0x006519E6  xor      edx, edx
+0x006519E8  mov      rcx, qword ptr [rsi + 0x98]
+0x006519EF  call     0x18066c850 ; call RVA 0x66C850 com.ndemiccreations.survivors.Condition$$op_Implicit
+0x006519F4  xor      r14d, r14d
+0x006519F7  test     al, al
+0x006519F9  je       0x180651bc6
+0x006519FF  mov      edi, r14d
+0x00651A02  mov      dword ptr [rsp + 0xd0], r14d
+0x00651A0A  mov      rax, qword ptr [rsi + 0x20]
+0x00651A0E  test     rax, rax
+0x00651A11  je       0x18065206a
+0x00651A17  mov      rcx, qword ptr [rax + 0x48]
+0x00651A1B  test     rcx, rcx
+0x00651A1E  je       0x18065206a
+0x00651A24  mov      rcx, qword ptr [rcx + 0x70]
+0x00651A28  test     rcx, rcx
+0x00651A2B  je       0x18065206a
+0x00651A31  xor      r8d, r8d
+0x00651A34  mov      rdx, qword ptr [rip + 0x429ce15] ; RIP=>RVA 0x48EE850 [.data]
+0x00651A3B  call     0x180878990 ; call RVA 0x878990 com.ndemiccreations.survivors.StatisticTypeManager$$GetTypeStatistics
+0x00651A40  test     rax, rax
+0x00651A43  je       0x18065206a
+0x00651A49  mov      rdx, qword ptr [rax + 0x30]
+0x00651A4D  test     rdx, rdx
+0x00651A50  je       0x18065206a
+0x00651A56  mov      r8, qword ptr [rip + 0x424ba1b] ; RIP=>RVA 0x489D478 [.data]
+0x00651A5D  lea      rcx, [rsp + 0x48]
+0x00651A62  call     0x1811f4290 ; call RVA 0x11F4290 System.Collections.Generic.List<ImmutableArray<int>>$$GetEnumerator | System.Collections.Generic.List<ImmutableArray<MetadataAggregator.RowCounts>>$$GetEnumerator | System.Coll
+0x00651A67  movups   xmm0, xmmword ptr [rsp + 0x48]
+0x00651A6C  movups   xmmword ptr [rsp + 0x30], xmm0
+0x00651A71  movsd    xmm1, qword ptr [rsp + 0x58]
+0x00651A77  movsd    qword ptr [rsp + 0x40], xmm1
+0x00651A7D  mov      qword ptr [rsp + 0x60], r14
+0x00651A82  lea      rbx, [rsp + 0x30]
+0x00651A87  mov      qword ptr [rsp + 0x68], rbx
+0x00651A8C  nop      dword ptr [rax]
+0x00651A90  mov      rdx, qword ptr [rip + 0x424b111] ; RIP=>RVA 0x489CBA8 [.data]
+0x00651A97  lea      rcx, [rsp + 0x30]
+0x00651A9C  call     0x181dfef20 ; call RVA 0x1DFEF20 System.Collections.Generic.List.Enumerator<object>$$MoveNext
+0x00651AA1  test     al, al
+0x00651AA3  je       0x180651acd
+0x00651AA5  mov      rax, qword ptr [rsp + 0x40]
+0x00651AAA  test     rax, rax
+0x00651AAD  je       0x180652070
+0x00651AB3  cmp      byte ptr [rax + 0x208], 0
+0x00651ABA  jne      0x180651ac2
+0x00651ABC  cmp      dword ptr [rax + 0x5c], 0
+0x00651AC0  jg       0x180651a90
+0x00651AC2  inc      edi
+0x00651AC4  mov      dword ptr [rsp + 0xd0], edi
+0x00651ACB  jmp      0x180651a90
+0x00651ACD  mov      rdx, qword ptr [rip + 0x424afcc] ; RIP=>RVA 0x489CAA0 [.data]
+0x00651AD4  mov      rcx, rbx
+0x00651AD7  call     0x180547790 ; call RVA 0x547790 Bar$$Start | FortBuilding$$BuildingSimulate | MenuBackgroundBlur.<ScreenshotGame>d__7$$System.IDisposable.Dispose | SeasonIndicatorWheel$$CleanupForScreenshot | WorldBorderSimul
+0x00651ADC  jmp      0x180651b14
+0x00651ADE  mov      rdx, qword ptr [rip + 0x424afbb] ; RIP=>RVA 0x489CAA0 [.data]
+0x00651AE5  mov      rcx, qword ptr [rsp + 0x68]
+0x00651AEA  call     0x180547790 ; call RVA 0x547790 Bar$$Start | FortBuilding$$BuildingSimulate | MenuBackgroundBlur.<ScreenshotGame>d__7$$System.IDisposable.Dispose | SeasonIndicatorWheel$$CleanupForScreenshot | WorldBorderSimul
+0x00651AEF  mov      rcx, qword ptr [rsp + 0x60]
+0x00651AF4  test     rcx, rcx
+0x00651AF7  jne      0x180652076
+0x00651AFD  xor      r14d, r14d
+0x00651B00  mov      rsi, qword ptr [rsp + 0xc0]
+0x00651B08  mov      r15, qword ptr [rsp + 0x70]
+0x00651B0D  mov      edi, dword ptr [rsp + 0xd0]
+0x00651B14  test     edi, edi
+0x00651B16  jle      0x180651e1c
+0x00651B1C  mov      rax, qword ptr [rsi + 0x20]
+0x00651B20  test     rax, rax
+0x00651B23  je       0x18065206a
+0x00651B29  mov      rcx, qword ptr [rax + 0x48]
+0x00651B2D  test     rcx, rcx
+0x00651B30  je       0x18065206a
+0x00651B36  mov      rax, qword ptr [rcx + 0x20]
+0x00651B3A  test     rax, rax
+0x00651B3D  je       0x18065206a
+0x00651B43  mov      byte ptr [rax + 0x160], 0
+0x00651B4A  mov      rdi, qword ptr [r15 + 0x10]
+0x00651B4E  mov      rcx, qword ptr [rip + 0x425068b] ; RIP=>RVA 0x48A21E0 [.data]
+0x00651B55  call     0x1804708c0 ; call RVA 0x4708C0
+0x00651B5A  mov      rbx, rax
+0x00651B5D  xor      edx, edx
+0x00651B5F  mov      rcx, rax
+0x00651B62  call     0x180672a30 ; call RVA 0x672A30 com.ndemiccreations.survivors.EngagedEvent.TokenParameters$$.ctor
+0x00651B67  test     rbx, rbx
+0x00651B6A  je       0x18065206a
+0x00651B70  mov      rcx, qword ptr [rip + 0x4202bd9] ; RIP=>RVA 0x4854750 [.data]
+0x00651B77  mov      qword ptr [rbx + 0x20], rcx
+0x00651B7B  lea      rcx, [rbx + 0x20]
+0x00651B7F  mov      rdx, qword ptr [rip + 0x4202bca] ; RIP=>RVA 0x4854750 [.data]
+0x00651B86  call     0x18046f800 ; call RVA 0x46F800
+0x00651B8B  mov      rcx, qword ptr [rip + 0x421937e] ; RIP=>RVA 0x486AF10 [.data]
+0x00651B92  mov      qword ptr [rbx + 0x18], rcx
+0x00651B96  lea      rcx, [rbx + 0x18]
+0x00651B9A  mov      rdx, qword ptr [rip + 0x421936f] ; RIP=>RVA 0x486AF10 [.data]
+0x00651BA1  call     0x18046f800 ; call RVA 0x46F800
+0x00651BA6  test     rdi, rdi
+0x00651BA9  je       0x18065206a
+0x00651BAF  mov      ecx, 5
+0x00651BB4  mov      r9, rbx
+0x00651BB7  mov      r8, rdi
+0x00651BBA  mov      rdx, qword ptr [rip + 0x4244077] ; RIP=>RVA 0x4895C38 [.data]
+0x00651BC1  call     0x180003780 ; call RVA 0x3780
+0x00651BC6  xor      edx, edx
+0x00651BC8  mov      rcx, qword ptr [rsi + 0x90]
+0x00651BCF  call     0x18066c850 ; call RVA 0x66C850 com.ndemiccreations.survivors.Condition$$op_Implicit
+0x00651BD4  test     al, al
+0x00651BD6  je       0x180652008
+0x00651BDC  mov      r10, qword ptr [r15 + 0x10]
+0x00651BE0  test     r10, r10
+0x00651BE3  je       0x18065206a
+0x00651BE9  mov      rdx, qword ptr [r10]
+0x00651BEC  mov      r9, qword ptr [rip + 0x422ea65] ; RIP=>RVA 0x4880658 [.data]
+0x00651BF3  movzx    eax, byte ptr [r9 + 0x130]
+0x00651BFB  cmp      byte ptr [rdx + 0x130], al
+0x00651C01  jb       0x18065206a
+0x00651C07  movzx    ecx, al
+0x00651C0A  mov      rax, qword ptr [rdx + 0xc8]
+0x00651C11  cmp      qword ptr [rax + rcx*8 - 8], r9
+0x00651C16  jne      0x18065206a
+0x00651C1C  movzx    edx, byte ptr [r9 + 0x130]
+0x00651C24  mov      rax, qword ptr [r10]
+0x00651C27  mov      rcx, qword ptr [rax + 0xc8]
+0x00651C2E  mov      r8d, r14d
+0x00651C31  cmp      qword ptr [rcx + rdx*8 - 8], r9
+0x00651C36  sete     r8b
+0x00651C3A  mov      rax, r14
+0x00651C3D  test     r8d, r8d
+0x00651C40  cmovne   rax, r10
+0x00651C44  mov      ebx, dword ptr [rax + 0xf0]
+0x00651C4A  mov      rcx, qword ptr [rip + 0x4234acf] ; RIP=>RVA 0x4886720 [.data]
+0x00651C51  call     0x1804708c0 ; call RVA 0x4708C0
+0x00651C56  mov      rdi, rax
+0x00651C59  xor      r8d, r8d
+0x00651C5C  mov      edx, ebx
+0x00651C5E  mov      rcx, rax
+0x00651C61  call     0x180c28a80 ; call RVA 0xC28A80 com.ndemiccreations.foundation.Rand$$.ctor
+0x00651C66  mov      qword ptr [rsp + 0x78], rdi
+0x00651C6B  test     rdi, rdi
+0x00651C6E  je       0x18065206a
+0x00651C74  xor      edx, edx
+0x00651C76  mov      rcx, rdi
+0x00651C79  call     0x180c23250 ; call RVA 0xC23250 com.ndemiccreations.foundation.IRand$$GenerateSeed
+0x00651C7E  mov      rbx, qword ptr [r15 + 0x10]
+0x00651C82  mov      rcx, qword ptr [rip + 0x4287c1f] ; RIP=>RVA 0x48D98A8 [.data]
+0x00651C89  call     0x180001d70 ; call RVA 0x1D70
+0x00651C8E  test     rbx, rbx
+0x00651C91  je       0x18065206a
+0x00651C97  mov      ecx, 1
+0x00651C9C  mov      qword ptr [rsp + 0x20], rax
+0x00651CA1  mov      r9, qword ptr [rip + 0x4277da0] ; RIP=>RVA 0x48C9A48 [.data]
+0x00651CA8  mov      r8, rbx
+0x00651CAB  mov      rdx, qword ptr [rip + 0x4243f86] ; RIP=>RVA 0x4895C38 [.data]
+0x00651CB2  call     0x1800042d0 ; call RVA 0x42D0
+0x00651CB7  mov      rbx, qword ptr [r15 + 0x10]
+0x00651CBB  mov      rcx, qword ptr [rip + 0x4287be6] ; RIP=>RVA 0x48D98A8 [.data]
+0x00651CC2  call     0x180001d70 ; call RVA 0x1D70
+0x00651CC7  test     rbx, rbx
+0x00651CCA  je       0x18065206a
+0x00651CD0  mov      ecx, 2
+0x00651CD5  mov      qword ptr [rsp + 0x20], rax
+0x00651CDA  mov      r9, qword ptr [rip + 0x424a36f] ; RIP=>RVA 0x489C050 [.data]
+0x00651CE1  mov      r8, rbx
+0x00651CE4  mov      rdx, qword ptr [rip + 0x4243f4d] ; RIP=>RVA 0x4895C38 [.data]
+0x00651CEB  call     0x1800042d0 ; call RVA 0x42D0
+0x00651CF0  mov      r8, qword ptr [r15 + 0x10]
+0x00651CF4  test     r8, r8
+0x00651CF7  je       0x18065206a
+0x00651CFD  mov      ecx, 4
+0x00651D02  mov      r9, qword ptr [rip + 0x42416c7] ; RIP=>RVA 0x48933D0 [.data]
+0x00651D09  mov      rdx, qword ptr [rip + 0x4243f28] ; RIP=>RVA 0x4895C38 [.data]
+0x00651D10  call     0x180003780 ; call RVA 0x3780
+0x00651D15  mov      rcx, qword ptr [rip + 0x4207e8c] ; RIP=>RVA 0x4859BA8 [.data]
+0x00651D1C  call     0x1804708c0 ; call RVA 0x4708C0
+0x00651D21  mov      r13, rax
+0x00651D24  mov      qword ptr [rsp + 0xd0], rax
+0x00651D2C  mov      rdx, qword ptr [rip + 0x424b335] ; RIP=>RVA 0x489D068 [.data]
+0x00651D33  mov      rcx, rax
+0x00651D36  call     0x1811fac00 ; call RVA 0x11FAC00 System.Collections.Generic.List<ImmutableArray<int>>$$.ctor | System.Collections.Generic.List<ImmutableArray<MetadataAggregator.RowCounts>>$$.ctor | System.Collections.Generic.
+0x00651D3B  mov      r12, r13
+0x00651D3E  mov      qword ptr [rsp + 0x60], r13
+0x00651D43  mov      rcx, qword ptr [rsi + 0x20]
+0x00651D47  test     rcx, rcx
+0x00651D4A  je       0x18065206a
+0x00651D50  mov      rcx, qword ptr [rcx + 0x48]
+0x00651D54  test     rcx, rcx
+0x00651D57  je       0x18065206a
+0x00651D5D  mov      rcx, qword ptr [rcx + 0x70]
+0x00651D61  test     rcx, rcx
+0x00651D64  je       0x18065206a
+0x00651D6A  xor      r8d, r8d
+0x00651D6D  mov      rdx, qword ptr [rip + 0x429cadc] ; RIP=>RVA 0x48EE850 [.data]
+0x00651D74  call     0x180878990 ; call RVA 0x878990 com.ndemiccreations.survivors.StatisticTypeManager$$GetTypeStatistics
+0x00651D79  test     rax, rax
+0x00651D7C  je       0x18065206a
+0x00651D82  mov      rdx, qword ptr [rax + 0x30]
+0x00651D86  test     rdx, rdx
+0x00651D89  je       0x18065206a
+0x00651D8F  mov      r8, qword ptr [rip + 0x424b6e2] ; RIP=>RVA 0x489D478 [.data]
+0x00651D96  lea      rcx, [rsp + 0x48]
+0x00651D9B  call     0x1811f4290 ; call RVA 0x11F4290 System.Collections.Generic.List<ImmutableArray<int>>$$GetEnumerator | System.Collections.Generic.List<ImmutableArray<MetadataAggregator.RowCounts>>$$GetEnumerator | System.Coll
+0x00651DA0  movups   xmm0, xmmword ptr [rsp + 0x48]
+0x00651DA5  movups   xmmword ptr [rsp + 0x30], xmm0
+0x00651DAA  movsd    xmm1, qword ptr [rsp + 0x58]
+0x00651DB0  movsd    qword ptr [rsp + 0x40], xmm1
+0x00651DB6  mov      qword ptr [rsp + 0x48], r14
+0x00651DBB  lea      rbx, [rsp + 0x30]
+0x00651DC0  mov      qword ptr [rsp + 0x50], rbx
+0x00651DC5  nop      word ptr [rax + rax]
+0x00651DD0  mov      rdx, qword ptr [rip + 0x424add1] ; RIP=>RVA 0x489CBA8 [.data]
+0x00651DD7  lea      rcx, [rsp + 0x30]
+0x00651DDC  call     0x181dfef20 ; call RVA 0x1DFEF20 System.Collections.Generic.List.Enumerator<object>$$MoveNext
+0x00651DE1  test     al, al
+0x00651DE3  je       0x180651e60
+0x00651DE5  mov      rdx, qword ptr [rsp + 0x40]
+0x00651DEA  test     rdx, rdx
+0x00651DED  je       0x180652081
+0x00651DF3  cmp      byte ptr [rdx + 0x208], 0
+0x00651DFA  jne      0x180651e02
+0x00651DFC  cmp      dword ptr [rdx + 0x5c], 0
+0x00651E00  jg       0x180651dd0
+0x00651E02  test     r13, r13
+0x00651E05  je       0x18065207c
+0x00651E0B  mov      r8, qword ptr [rip + 0x424b35e] ; RIP=>RVA 0x489D170 [.data]
+0x00651E12  mov      rcx, r13
+0x00651E15  call     0x180002f80 ; call RVA 0x2F80
+0x00651E1A  jmp      0x180651dd0
+0x00651E1C  mov      word ptr [rsp + 0xd0], r14w
+0x00651E25  mov      r8, qword ptr [rip + 0x423c43c] ; RIP=>RVA 0x488E268 [.data]
+0x00651E2C  xor      edx, edx
+0x00651E2E  lea      rcx, [rsp + 0xd0]
+0x00651E36  call     0x1814a39a0 ; call RVA 0x14A39A0 System.Nullable<bool>$$.ctor | System.Nullable<byte>$$.ctor | System.Nullable<ByteEnum>$$.ctor | System.Nullable<JsonNodeOptions>$$.ctor | System.Nullable<sbyte>$$.ctor | Syste
+0x00651E3B  movzx    eax, word ptr [rsp + 0xd0]
+0x00651E43  lea      r11, [rsp + 0x90]
+0x00651E4B  mov      rbx, qword ptr [r11 + 0x38]
+0x00651E4F  mov      rsi, qword ptr [r11 + 0x48]
+0x00651E53  mov      rsp, r11
+0x00651E56  pop      r15
+0x00651E58  pop      r14
+0x00651E5A  pop      r13
+0x00651E5C  pop      r12
+0x00651E5E  pop      rdi
+0x00651E5F  ret      
+0x00651E60  mov      rdx, qword ptr [rip + 0x424ac39] ; RIP=>RVA 0x489CAA0 [.data]
+0x00651E67  mov      rcx, rbx
+0x00651E6A  call     0x180547790 ; call RVA 0x547790 Bar$$Start | FortBuilding$$BuildingSimulate | MenuBackgroundBlur.<ScreenshotGame>d__7$$System.IDisposable.Dispose | SeasonIndicatorWheel$$CleanupForScreenshot | WorldBorderSimul
+0x00651E6F  jmp      0x180651ea5
+0x00651E71  mov      rdx, qword ptr [rip + 0x424ac28] ; RIP=>RVA 0x489CAA0 [.data]
+0x00651E78  mov      rcx, qword ptr [rsp + 0x50]
+0x00651E7D  call     0x180547790 ; call RVA 0x547790 Bar$$Start | FortBuilding$$BuildingSimulate | MenuBackgroundBlur.<ScreenshotGame>d__7$$System.IDisposable.Dispose | SeasonIndicatorWheel$$CleanupForScreenshot | WorldBorderSimul
+0x00651E82  mov      rcx, qword ptr [rsp + 0x48]
+0x00651E87  test     rcx, rcx
+0x00651E8A  jne      0x180652087
+0x00651E90  xor      r14d, r14d
+0x00651E93  mov      r15, qword ptr [rsp + 0x70]
+0x00651E98  mov      rdi, qword ptr [rsp + 0x78]
+0x00651E9D  mov      r12, qword ptr [rsp + 0x60]
+0x00651EA2  mov      r13, r12
+0x00651EA5  mov      r8, qword ptr [rip + 0x4240adc] ; RIP=>RVA 0x4892988 [.data]
+0x00651EAC  mov      rdx, rdi
+0x00651EAF  mov      rcx, r12
+0x00651EB2  call     0x180ee9bb0 ; call RVA 0xEE9BB0 com.ndemiccreations.foundation.Extensions$$Shuffle<object>
+0x00651EB7  mov      esi, r14d
+0x00651EBA  mov      ecx, r14d
+0x00651EBD  test     r12, r12
+0x00651EC0  je       0x18065206a
+0x00651EC6  mov      edx, 3
+0x00651ECB  nop      dword ptr [rax + rax]
+0x00651ED0  mov      eax, dword ptr [r13 + 0x18]
+0x00651ED4  cmp      eax, edx
+0x00651ED6  cmovg    eax, edx
+0x00651ED9  cmp      ecx, eax
+0x00651EDB  jge      0x180652008
+0x00651EE1  mov      rcx, qword ptr [rip + 0x425d4e8] ; RIP=>RVA 0x48AF3D0 [.data]
+0x00651EE8  call     0x1804708c0 ; call RVA 0x4708C0
+0x00651EED  mov      rbx, rax
+0x00651EF0  xor      edx, edx
+0x00651EF2  mov      rcx, rax
+0x00651EF5  call     0x180549d80 ; call RVA 0x549D80 CustomAxisValueFormatterExample.PriceValueFormatter$$.ctor | LayerEventSetting$$.ctor | CancellableAction.<>c__DisplayClass0_0$$.ctor | CancellableAction$$.ctor | EnemyParticle.
+0x00651EFA  test     rbx, rbx
+0x00651EFD  je       0x18065206a
+0x00651F03  mov      qword ptr [rbx + 0x18], r15
+0x00651F07  lea      rcx, [rbx + 0x18]
+0x00651F0B  mov      rdx, r15
+0x00651F0E  call     0x18046f800 ; call RVA 0x46F800
+0x00651F13  mov      r8, qword ptr [rip + 0x424b966] ; RIP=>RVA 0x489D880 [.data]
+0x00651F1A  mov      edx, esi
+0x00651F1C  mov      rcx, r12
+0x00651F1F  call     0x1811fb4f0 ; call RVA 0x11FB4F0 System.Collections.Generic.List<ImmutableArray<int>>$$get_Item | System.Collections.Generic.List<ImmutableArray<MetadataAggregator.RowCounts>>$$get_Item | System.Collections.Ge
+0x00651F24  mov      qword ptr [rbx + 0x10], rax
+0x00651F28  lea      rcx, [rbx + 0x10]
+0x00651F2C  mov      rdx, rax
+0x00651F2F  call     0x18046f800 ; call RVA 0x46F800
+0x00651F34  mov      rdi, qword ptr [rbx + 0x18]
+0x00651F38  test     rdi, rdi
+0x00651F3B  je       0x18065206a
+0x00651F41  mov      rdi, qword ptr [rdi + 0x10]
+0x00651F45  mov      rcx, qword ptr [rip + 0x429655c] ; RIP=>RVA 0x48E84A8 [.data]
+0x00651F4C  call     0x1804708c0 ; call RVA 0x4708C0
+0x00651F51  mov      r13, rax
+0x00651F54  xor      r9d, r9d
+0x00651F57  mov      r8, qword ptr [rip + 0x428a08a] ; RIP=>RVA 0x48DBFE8 [.data]
+0x00651F5E  mov      rdx, rbx
+0x00651F61  mov      rcx, rax
+0x00651F64  call     0x181e48ca0 ; call RVA 0x1E48CA0 System.Action<bool, object, object>$$.ctor
+0x00651F69  test     rdi, rdi
+0x00651F6C  je       0x18065206a
+0x00651F72  mov      rbx, qword ptr [rip + 0x4263b67] ; RIP=>RVA 0x48B5AE0 [.data]
+0x00651F79  mov      r9, qword ptr [rip + 0x4243cb8] ; RIP=>RVA 0x4895C38 [.data]
+0x00651F80  mov      r10, qword ptr [rdi]
+0x00651F83  movzx    ecx, r14w
+0x00651F87  movzx    edx, word ptr [r10 + 0x12e]
+0x00651F8F  cmp      r14w, dx
+0x00651F93  jae      0x180651fb4
+0x00651F95  mov      r8, qword ptr [r10 + 0xb0]
+0x00651F9C  nop      dword ptr [rax]
+0x00651FA0  movzx    eax, cx
+0x00651FA3  add      rax, rax
+0x00651FA6  cmp      qword ptr [r8 + rax*8], r9
+0x00651FAA  je       0x180651fe9
+0x00651FAC  inc      cx
+0x00651FAF  cmp      cx, dx
+0x00651FB2  jb       0x180651fa0
+0x00651FB4  mov      r8d, 0xc
+0x00651FBA  mov      rdx, r9
+0x00651FBD  mov      rcx, rdi
+0x00651FC0  call     0x18046d120 ; call RVA 0x46D120
+0x00651FC5  mov      r10, qword ptr [rax]
+0x00651FC8  mov      r9, qword ptr [rax + 8]
+0x00651FCC  mov      r8, r13
+0x00651FCF  mov      rdx, rbx
+0x00651FD2  mov      rcx, rdi
+0x00651FD5  call     r10
+0x00651FD8  inc      esi
+0x00651FDA  mov      ecx, esi
+0x00651FDC  mov      r13, qword ptr [rsp + 0xd0]
+0x00651FE4  jmp      0x180651ec6
+0x00651FE9  movzx    ecx, cx
+0x00651FEC  add      rcx, rcx
+0x00651FEF  mov      eax, dword ptr [r8 + rcx*8 + 8]
+0x00651FF4  add      eax, 0xc
+0x00651FF7  cdqe     
+0x00651FF9  shl      rax, 4
+0x00651FFD  add      rax, 0x138
+0x00652003  add      rax, r10
+0x00652006  jmp      0x180651fc5
+0x00652008  movzx    eax, r14w
+0x0065200C  jmp      0x180651e43
+0x00652011  mov      rax, qword ptr [rsi + 0x20]
+0x00652015  test     rax, rax
+0x00652018  je       0x18065208d
+0x0065201A  cmp      qword ptr [rax + 0x80], 0
+0x00652022  je       0x18065204d
+0x00652024  mov      rcx, qword ptr [rax + 0x80]
+0x0065202B  cmp      qword ptr [rcx + 0x18], 0
+0x00652030  je       0x18065204d
+0x00652032  mov      rdx, qword ptr [rcx + 0x18]
+0x00652036  xor      r8d, r8d
+0x00652039  mov      rdx, qword ptr [rdx + 0x38]
+0x0065203D  mov      rcx, qword ptr [rsi + 0xe0]
+0x00652044  call     0x18226f9a0 ; call RVA 0x226F9A0 System.String$$Equals | System.String$$op_Equality
+0x00652049  xor      al, 1
+0x0065204B  jmp      0x18065204f
+0x0065204D  mov      al, 1
+0x0065204F  xor      r14d, r14d
+0x00652052  mov      word ptr [rsp + 0xd0], r14w
+0x0065205B  mov      r8, qword ptr [rip + 0x423c206] ; RIP=>RVA 0x488E268 [.data]
+0x00652062  movzx    edx, al
+0x00652065  jmp      0x180651e2e
+0x0065206A  call     0x180470920 ; call RVA 0x470920
+0x0065206F  nop      
+0x00652070  call     0x180470920 ; call RVA 0x470920
+0x00652075  nop      
+0x00652076  call     0x1804709c0 ; call RVA 0x4709C0
+0x0065207B  nop      
+0x0065207C  call     0x180470920 ; call RVA 0x470920
+0x00652081  call     0x180470920 ; call RVA 0x470920
+0x00652086  nop      
+0x00652087  call     0x1804709c0 ; call RVA 0x4709C0
+0x0065208C  int3     
+0x0065208D  call     0x180470920 ; call RVA 0x470920
+0x00652092  int3     
+0x00652093  int3     
+0x00652094  int3     
+0x00652095  int3     
+0x00652096  int3     
+0x00652097  int3     
+0x00652098  int3     
+0x00652099  int3     
+0x0065209A  int3     
+0x0065209B  int3     
+0x0065209C  int3     
+0x0065209D  int3     
+0x0065209E  int3     
+0x0065209F  int3     
+
+===== com.ndemiccreations.survivors.GameEvents$$HasSoldierUpgradesLeft RVA 0x622BA0 size<=0x170 =====
+0x00622BA0  push     rbx
+0x00622BA2  sub      rsp, 0x60
+0x00622BA6  mov      rbx, rcx
+0x00622BA9  cmp      byte ptr [rip + 0x453b68c], 0 ; RIP=>RVA 0x4B5E23C [.data]
+0x00622BB0  jne      0x180622bf5
+0x00622BB2  lea      rcx, [rip + 0x4279ee7] ; RIP=>RVA 0x489CAA0 [.data]
+0x00622BB9  call     0x180470630 ; call RVA 0x470630
+0x00622BBE  lea      rcx, [rip + 0x4279fe3] ; RIP=>RVA 0x489CBA8 [.data]
+0x00622BC5  call     0x180470630 ; call RVA 0x470630
+0x00622BCA  lea      rcx, [rip + 0x427a0d7] ; RIP=>RVA 0x489CCA8 [.data]
+0x00622BD1  call     0x180470630 ; call RVA 0x470630
+0x00622BD6  lea      rcx, [rip + 0x427a89b] ; RIP=>RVA 0x489D478 [.data]
+0x00622BDD  call     0x180470630 ; call RVA 0x470630
+0x00622BE2  lea      rcx, [rip + 0x42cbc67] ; RIP=>RVA 0x48EE850 [.data]
+0x00622BE9  call     0x180470630 ; call RVA 0x470630
+0x00622BEE  mov      byte ptr [rip + 0x453b647], 1 ; RIP=>RVA 0x4B5E23C [.data]
+0x00622BF5  xorps    xmm0, xmm0
+0x00622BF8  xor      eax, eax
+0x00622BFA  movups   xmmword ptr [rsp + 0x40], xmm0
+0x00622BFF  mov      qword ptr [rsp + 0x50], rax
+0x00622C04  xor      edx, edx
+0x00622C06  mov      rcx, rbx
+0x00622C09  call     0x1805db2b0 ; call RVA 0x5DB2B0 com.ndemiccreations.survivors.BaseGameEvents$$get_global
+0x00622C0E  test     rax, rax
+0x00622C11  je       0x180622cfc
+0x00622C17  mov      rcx, qword ptr [rax + 0x70]
+0x00622C1B  test     rcx, rcx
+0x00622C1E  je       0x180622cfc
+0x00622C24  xor      r8d, r8d
+0x00622C27  mov      rdx, qword ptr [rip + 0x42cbc22] ; RIP=>RVA 0x48EE850 [.data]
+0x00622C2E  call     0x180878990 ; call RVA 0x878990 com.ndemiccreations.survivors.StatisticTypeManager$$GetTypeStatistics
+0x00622C33  test     rax, rax
+0x00622C36  je       0x180622cfc
+0x00622C3C  mov      rdx, qword ptr [rax + 0x30]
+0x00622C40  test     rdx, rdx
+0x00622C43  je       0x180622cfc
+0x00622C49  mov      r8, qword ptr [rip + 0x427a828] ; RIP=>RVA 0x489D478 [.data]
+0x00622C50  lea      rcx, [rsp + 0x28]
+0x00622C55  call     0x1811f4290 ; call RVA 0x11F4290 System.Collections.Generic.List<ImmutableArray<int>>$$GetEnumerator | System.Collections.Generic.List<ImmutableArray<MetadataAggregator.RowCounts>>$$GetEnumerator | System.Coll
+0x00622C5A  movups   xmm0, xmmword ptr [rsp + 0x28]
+0x00622C5F  movups   xmmword ptr [rsp + 0x40], xmm0
+0x00622C64  movsd    xmm1, qword ptr [rsp + 0x38]
+0x00622C6A  movsd    qword ptr [rsp + 0x50], xmm1
+0x00622C70  mov      qword ptr [rsp + 0x28], 0
+0x00622C79  lea      rbx, [rsp + 0x40]
+0x00622C7E  mov      qword ptr [rsp + 0x30], rbx
+0x00622C83  mov      rdx, qword ptr [rip + 0x4279f1e] ; RIP=>RVA 0x489CBA8 [.data]
+0x00622C8A  lea      rcx, [rsp + 0x40]
+0x00622C8F  call     0x181dfef20 ; call RVA 0x1DFEF20 System.Collections.Generic.List.Enumerator<object>$$MoveNext
+0x00622C94  test     al, al
+0x00622C96  je       0x180622cc8
+0x00622C98  mov      rax, qword ptr [rsp + 0x50]
+0x00622C9D  test     rax, rax
+0x00622CA0  je       0x180622d02
+0x00622CA2  cmp      byte ptr [rax + 0x208], 0
+0x00622CA9  jne      0x180622cb1
+0x00622CAB  cmp      dword ptr [rax + 0x5c], 0
+0x00622CAF  jg       0x180622c83
+0x00622CB1  mov      rdx, qword ptr [rip + 0x4279de8] ; RIP=>RVA 0x489CAA0 [.data]
+0x00622CB8  mov      rcx, rbx
+0x00622CBB  call     0x180547790 ; call RVA 0x547790 Bar$$Start | FortBuilding$$BuildingSimulate | MenuBackgroundBlur.<ScreenshotGame>d__7$$System.IDisposable.Dispose | SeasonIndicatorWheel$$CleanupForScreenshot | WorldBorderSimul
+0x00622CC0  mov      al, 1
+0x00622CC2  add      rsp, 0x60
+0x00622CC6  pop      rbx
+0x00622CC7  ret      
+0x00622CC8  mov      rdx, qword ptr [rip + 0x4279dd1] ; RIP=>RVA 0x489CAA0 [.data]
+0x00622CCF  mov      rcx, rbx
+0x00622CD2  call     0x180547790 ; call RVA 0x547790 Bar$$Start | FortBuilding$$BuildingSimulate | MenuBackgroundBlur.<ScreenshotGame>d__7$$System.IDisposable.Dispose | SeasonIndicatorWheel$$CleanupForScreenshot | WorldBorderSimul
+0x00622CD7  jmp      0x180622cf4
+0x00622CD9  mov      rdx, qword ptr [rip + 0x4279dc0] ; RIP=>RVA 0x489CAA0 [.data]
+0x00622CE0  mov      rcx, qword ptr [rsp + 0x30]
+0x00622CE5  call     0x180547790 ; call RVA 0x547790 Bar$$Start | FortBuilding$$BuildingSimulate | MenuBackgroundBlur.<ScreenshotGame>d__7$$System.IDisposable.Dispose | SeasonIndicatorWheel$$CleanupForScreenshot | WorldBorderSimul
+0x00622CEA  mov      rcx, qword ptr [rsp + 0x28]
+0x00622CEF  test     rcx, rcx
+0x00622CF2  jne      0x180622d08
+0x00622CF4  xor      al, al
+0x00622CF6  add      rsp, 0x60
+0x00622CFA  pop      rbx
+0x00622CFB  ret      
+0x00622CFC  call     0x180470920 ; call RVA 0x470920
+0x00622D01  nop      
+0x00622D02  call     0x180470920 ; call RVA 0x470920
+0x00622D07  nop      
+0x00622D08  call     0x1804709c0 ; call RVA 0x4709C0
+0x00622D0D  int3     
+0x00622D0E  int3     
+0x00622D0F  int3     
+
+===== com.ndemiccreations.survivors.GameEvents.<>c__DisplayClass107_1$$<SoldierUpgrade>b__0 RVA 0x674C70 size<=0x240 =====
+0x00674C70  mov      qword ptr [rsp + 0x18], rbp
+0x00674C75  mov      qword ptr [rsp + 0x20], rsi
+0x00674C7A  push     rdi
+0x00674C7B  sub      rsp, 0x40
+0x00674C7F  cmp      byte ptr [rip + 0x44e979a], 0 ; RIP=>RVA 0x4B5E420 [.data]
+0x00674C86  mov      rsi, r8
+0x00674C89  movzx    ebp, dl
+0x00674C8C  mov      rdi, rcx
+0x00674C8F  jne      0x180674cb0
+0x00674C91  lea      rcx, [rip + 0x4264c10] ; RIP=>RVA 0x48D98A8 [.data]
+0x00674C98  call     0x180470630 ; call RVA 0x470630
+0x00674C9D  lea      rcx, [rip + 0x4220f94] ; RIP=>RVA 0x4895C38 [.data]
+0x00674CA4  call     0x180470630 ; call RVA 0x470630
+0x00674CA9  mov      byte ptr [rip + 0x44e9770], 1 ; RIP=>RVA 0x4B5E420 [.data]
+0x00674CB0  mov      rax, qword ptr [rdi + 0x10]
+0x00674CB4  mov      qword ptr [rsp + 0x50], rbx
+0x00674CB9  mov      qword ptr [rsp + 0x58], r14
+0x00674CBE  test     rax, rax
+0x00674CC1  je       0x180674ea4
+0x00674CC7  mov      rcx, qword ptr [rax + 0x18]
+0x00674CCB  test     rcx, rcx
+0x00674CCE  je       0x180674ea4
+0x00674CD4  xor      edx, edx
+0x00674CD6  call     0x180be8040 ; call RVA 0xBE8040 com.ndemiccreations.foundation.EnglishText$$ToLocalisedString | com.ndemiccreations.foundation.EnglishText$$NeedsRefactoring
+0x00674CDB  mov      rcx, qword ptr [rip + 0x4264bc6] ; RIP=>RVA 0x48D98A8 [.data]
+0x00674CE2  mov      rbx, rax
+0x00674CE5  call     0x180001d70 ; call RVA 0x1D70
+0x00674CEA  test     rsi, rsi
+0x00674CED  je       0x180674ea4
+0x00674CF3  xor      r9d, r9d
+0x00674CF6  mov      r8, rax
+0x00674CF9  mov      rdx, rbx
+0x00674CFC  mov      rcx, rsi
+0x00674CFF  call     0x1806b8d10 ; call RVA 0x6B8D10 com.ndemiccreations.survivors.OptionController$$OptionTitle
+0x00674D04  mov      rcx, qword ptr [rdi + 0x10]
+0x00674D08  test     rcx, rcx
+0x00674D0B  je       0x180674ea4
+0x00674D11  mov      rcx, qword ptr [rcx + 0x20]
+0x00674D15  test     rcx, rcx
+0x00674D18  je       0x180674ea4
+0x00674D1E  xor      edx, edx
+0x00674D20  call     0x180be8040 ; call RVA 0xBE8040 com.ndemiccreations.foundation.EnglishText$$ToLocalisedString | com.ndemiccreations.foundation.EnglishText$$NeedsRefactoring
+0x00674D25  mov      rcx, qword ptr [rip + 0x4264b7c] ; RIP=>RVA 0x48D98A8 [.data]
+0x00674D2C  mov      rbx, rax
+0x00674D2F  call     0x180001d70 ; call RVA 0x1D70
+0x00674D34  xor      r9d, r9d
+0x00674D37  mov      r8, rax
+0x00674D3A  mov      rdx, rbx
+0x00674D3D  mov      rcx, rsi
+0x00674D40  call     0x1806b8bb0 ; call RVA 0x6B8BB0 com.ndemiccreations.survivors.OptionController$$Flavour
+0x00674D45  test     bpl, bpl
+0x00674D48  je       0x180674e8a
+0x00674D4E  mov      rax, qword ptr [rdi + 0x18]
+0x00674D52  test     rax, rax
+0x00674D55  je       0x180674ea4
+0x00674D5B  mov      rsi, qword ptr [rax + 0x10]
+0x00674D5F  mov      rbx, qword ptr [rax + 0x18]
+0x00674D63  mov      rax, qword ptr [rdi + 0x10]
+0x00674D67  test     rax, rax
+0x00674D6A  je       0x180674ea4
+0x00674D70  mov      rcx, qword ptr [rax + 0x18]
+0x00674D74  test     rcx, rcx
+0x00674D77  je       0x180674ea4
+0x00674D7D  xor      edx, edx
+0x00674D7F  call     0x180be8040 ; call RVA 0xBE8040 com.ndemiccreations.foundation.EnglishText$$ToLocalisedString | com.ndemiccreations.foundation.EnglishText$$NeedsRefactoring
+0x00674D84  mov      rcx, qword ptr [rip + 0x4264b1d] ; RIP=>RVA 0x48D98A8 [.data]
+0x00674D8B  mov      rbp, rax
+0x00674D8E  call     0x180001d70 ; call RVA 0x1D70
+0x00674D93  test     rbx, rbx
+0x00674D96  je       0x180674ea4
+0x00674D9C  xor      r9d, r9d
+0x00674D9F  mov      r8, rax
+0x00674DA2  mov      rdx, rbp
+0x00674DA5  mov      rcx, rbx
+0x00674DA8  call     0x1805d9450 ; call RVA 0x5D9450 com.ndemiccreations.survivors.BaseGameEvents$$Text
+0x00674DAD  mov      rbx, qword ptr [rdi + 0x18]
+0x00674DB1  mov      r14, rax
+0x00674DB4  test     rbx, rbx
+0x00674DB7  je       0x180674ea4
+0x00674DBD  mov      rcx, qword ptr [rdi + 0x10]
+0x00674DC1  mov      rbx, qword ptr [rbx + 0x18]
+0x00674DC5  test     rcx, rcx
+0x00674DC8  je       0x180674ea4
+0x00674DCE  mov      rcx, qword ptr [rcx + 0x28]
+0x00674DD2  test     rcx, rcx
+0x00674DD5  je       0x180674ea4
+0x00674DDB  xor      edx, edx
+0x00674DDD  call     0x180be8040 ; call RVA 0xBE8040 com.ndemiccreations.foundation.EnglishText$$ToLocalisedString | com.ndemiccreations.foundation.EnglishText$$NeedsRefactoring
+0x00674DE2  mov      rcx, qword ptr [rip + 0x4264abf] ; RIP=>RVA 0x48D98A8 [.data]
+0x00674DE9  mov      rbp, rax
+0x00674DEC  call     0x180001d70 ; call RVA 0x1D70
+0x00674DF1  test     rbx, rbx
+0x00674DF4  je       0x180674ea4
+0x00674DFA  xor      r9d, r9d
+0x00674DFD  mov      r8, rax
+0x00674E00  mov      rdx, rbp
+0x00674E03  mov      rcx, rbx
+0x00674E06  call     0x1805d9450 ; call RVA 0x5D9450 com.ndemiccreations.survivors.BaseGameEvents$$Text
+0x00674E0B  test     rsi, rsi
+0x00674E0E  je       0x180674ea4
+0x00674E14  mov      rdx, qword ptr [rip + 0x4220e1d] ; RIP=>RVA 0x4895C38 [.data]
+0x00674E1B  mov      ecx, 9
+0x00674E20  mov      dword ptr [rsp + 0x28], 1
+0x00674E28  mov      r9, r14
+0x00674E2B  mov      r8, rsi
+0x00674E2E  mov      qword ptr [rsp + 0x20], rax
+0x00674E33  call     0x180004360 ; call RVA 0x4360
+0x00674E38  mov      rax, qword ptr [rdi + 0x18]
+0x00674E3C  test     rax, rax
+0x00674E3F  je       0x180674ea4
+0x00674E41  mov      rax, qword ptr [rax + 0x18]
+0x00674E45  test     rax, rax
+0x00674E48  je       0x180674ea4
+0x00674E4A  mov      rcx, qword ptr [rax + 0x20]
+0x00674E4E  test     rcx, rcx
+0x00674E51  je       0x180674ea4
+0x00674E53  mov      rax, qword ptr [rcx + 0x48]
+0x00674E57  test     rax, rax
+0x00674E5A  je       0x180674ea4
+0x00674E5C  mov      rcx, qword ptr [rax + 0x28]
+0x00674E60  test     rcx, rcx
+0x00674E63  je       0x180674ea4
+0x00674E65  mov      rdx, qword ptr [rdi + 0x10]
+0x00674E69  xor      r9d, r9d
+0x00674E6C  mov      qword ptr [rsp + 0x30], 0
+0x00674E75  mov      r8d, 1
+0x00674E7B  mov      byte ptr [rsp + 0x28], 0
+0x00674E80  mov      byte ptr [rsp + 0x20], 1
+0x00674E85  call     0x1807eca40 ; call RVA 0x7ECA40 com.ndemiccreations.survivors.TechManager$$Apply
+0x00674E8A  mov      r14, qword ptr [rsp + 0x58]
+0x00674E8F  mov      rbx, qword ptr [rsp + 0x50]
+0x00674E94  mov      rbp, qword ptr [rsp + 0x60]
+0x00674E99  mov      rsi, qword ptr [rsp + 0x68]
+0x00674E9E  add      rsp, 0x40
+0x00674EA2  pop      rdi
+0x00674EA3  ret      
+0x00674EA4  call     0x180470920 ; call RVA 0x470920
+0x00674EA9  int3     
+0x00674EAA  int3     
+0x00674EAB  int3     
+0x00674EAC  int3     
+0x00674EAD  int3     
+0x00674EAE  int3     
+0x00674EAF  int3     

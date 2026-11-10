@@ -1,0 +1,170 @@
+2026-10-14 后续待办
+
+1. 经验不对：核查战士经验的修改逻辑及其与实际等级、界面显示的对应关系，修正经验功能。当前原因尚未确认。
+2. 修改器页面太长：缩短界面、精简布局，同时保留所有功能及简短的功能简介。
+
+以上仅记录待办，尚未开始修复。
+
+
+补充:
+先修复经验和页面然后:合并文件夹，保留历史开发的修改器，并写版本号
+
+
+2026-10-15 结项进展
+
+1. 已定案并修好（待实机验证）：原“经验 +1”方向不对 —— 它只调 IncrementLevel，不会出现升级图标。
+   现改为调用游戏原生战士升级事件，按钮“升级机会 +1”：在所选战士区域生成可点击的原生升级图标，
+   点击后由玩家自己选择全局战士加成。已有待处理升级时会拒绝重复生成（原生码 -6）。
+2. 已完成：窗口 600×820 → 600×540，改为「资源 / 队伍与升级 / 远征与地图」三个页签。
+3. 已完成：写入版本号 25936576.1（界面标题、EXE 文件版本、version_info.txt）。
+4. 已完成：重建原生 DLL。此前打包内置的 DLL 仍是 10-14 22:42 的旧逻辑，与 15 日改过的源码不一致，
+   现已重新编译并核对；上一个 DLL 备份为 native/AfterIncSoldierUpgrade.dll.bak-20261014-2342。
+5. 已完成：补原生测试 8 项（native/native_upgrade_test.cpp + native/build_native_test.cmd +
+   tests/test_soldier_upgrade_native.py），全套 53 项通过。
+6. 已完成：打包 dist/build_25936576_1/AfterIncRevivalTrainer_CN.exe。
+
+未完成
+
+- 实机验证“升级机会 +1”是否真的生成可点击图标，以及已有图标时不重复生成（需要游戏运行）。
+- 把 soldier_upgrade_work 登记为历史版本并合并目录（合并前需先完成实机验收）。
+- README 里 dist/teams_update、dist/expedition_update 两个不存在的路径。
+- dist\1..4 按构建号改名：父目录 after_inc_trainer 与 dist 的所有者是旧沙箱账户
+  LAPTOP-MGQ3TS3I\CodexSandboxOffline，改名需要先拿回所有者身份，普通写入不受影响。
+
+
+2026-10-15 第二轮（实机反馈后）
+
+用户反馈：点“升级机会 +1”后游戏里没有升级图标，状态提示是“已有升级等待执行，请短暂继续游戏或取消等待”。
+
+查证与修改：
+
+1. 事件地址核对无误：tryFire 走的是 BaseGameEvents.TryFire(GameEvent) 0x5D9DA0（另一个重载 0x5D9FB0
+   是 generator 版），HasSoldierUpgradesLeft = 0x622BA0，二者都用 script.json 反查确认。
+2. 游戏自己调 TryFire 时第 4 个参数 permitAnyFailedValidChecks = 1（true），修改器原来传的是 false，
+   已改为 true，与游戏行为一致。
+3. 新增原生导出 SoldierDiag：记录 hook_calls / runs_started / identity_fails / stage /
+   event_found / engaged_before / has_upgrades_left / Optional 原始字段 / created_count / last_status。
+   Python 之前只记请求、不记结果，现在每次点击都会写 soldier-result_*.json，把游戏真正返回的
+   status 和 stage 落盘，不再靠猜。
+4. 原来点完就返回、需要用户自己“继续游戏再读取”，现在修改器会等游戏最多 8 秒把请求执行完再回报，
+   避免刚点完就看到“已有升级等待执行”。
+5. 类型校验改成结构化判据（events+0x20 == game、GameEvent+0x70 == events、cluster+0x28 == events 等），
+   不再依赖写死的 class 槽地址，避免槽位过期误判 -7。
+6. 澄清 -5 的含义：HasSoldierUpgradesLeft 与 SoldierUpgrade 内部计数用的是同一个判据
+   （tech.repeatable != 0 或 tech.timesEvolved <= 0），数量为 0 时游戏在创建图标前就返回，
+   所以“全部买过且不可重复”的存档确实不会再有图标。
+
+下一步：用新 EXE 再测一次，然后看 %LOCALAPPDATA%/AfterIncTrainer/logs/soldier-result_*.json
+里的 status 与 stage，即可确定是走通了没显示图标，还是被某个具体阶段拒绝。
+
+### 实机取证（游戏运行时只读读取，已定位到根因）
+
+用只读探针读了运行中的游戏（PID 38664，build 25936576），`SoldierState.status = -7`、
+`action = 1` —— 也就是说请求被修改器自己的前置校验拦住了，**根本没有调用游戏函数**。
+逐项复现旧代码的校验链，结果如下（旧 DLL 9c5112e7，4608 字节）：
+
+| 旧校验 | 实测 |
+| --- | --- |
+| `typed(events, 76111160)`：events klass == `*(base+0x4895D38)` | 相等（0x2335185c050）✓ |
+| `[events+0x20] == game` | 相等 ✓ |
+| `[events+0xD8]`（blockGameEvents） | 0 ✓ |
+| `allEvents` 列表结构 | count=344，items 长度 512 ✓ |
+| `[entry+0x70] == events`（GameEvent 归属） | 344 项全部匹配 ✓ |
+| 找到 `ident == 'SoldierUpgrade'` 的事件数 | 恰好 1 个（entry[69]）✓ |
+| `engaged` 列表 | count=1 |
+
+也就是说：能离线核对的项目全部通过，唯一没被排除的就是旧代码里剩下三处写死的
+**类槽相等校验** —— `typed(entry, 76110384)`、`typed(holder, 76023384)`、
+`typed(cluster, 76023120)`。`-7` 就出在这里。
+
+### 补充：类槽本身是对的，-7 是「一处判不了就整条中止」
+
+进一步用 PE 反查（扫 `.text` + `il2cpp` 段里的 `lea rcx, [rip+disp32]`，算出 RIP 相对目标，
+再用 `.pdata` 定位所属函数，最后映射回方法名）逐个确认了四个槽的归属：
+
+| 槽 | 被谁引用 | 结论 |
+| --- | --- | --- |
+| `0x4895D38` | `GameEvents..cctor`、`GameController.SetUpGame`、`LocalDevSimulator.Setup` | GameEvents ✓（旧代码此处正确） |
+| `0x4895A30` | `BaseGameEvents.Register`、`BaseGameEvents.Serialize` | GameEvent ✓ |
+| `0x4880658` | `BaseGameEvents.TryGetCluster`、`ForceFire`、以及**每一个** `GameEvents.<事件方法>` 包括 `SoldierUpgrade` | EngagedEvent ✓ |
+| `0x4880550` | `BaseGameEvents.TryGetCluster`、`ForceFire`、`Setup`、`Serialize` | EngagedCluster ✓ |
+
+同时 `EngagedEvent` 的字段确认是 0x10 ident、**0x18 cluster**、0x20 zone、0x48 tokenParams，
+所以 holder→cluster 的偏移也是对的。
+
+那么 -7 只可能来自**旧代码的写法**：它在扫描 `engaged` 列表时是「任一元素判不了就整条中止」
+（`if (!typed(entry,76023384)) return -7;`、`if (!typed(cluster,76023120) || ...) return -7;`）。
+只要列表里当时存在一个正在创建/正在销毁、或 cluster 指针不匹配的 EngagedEvent，整次请求就被判 -7，
+哪怕 SoldierUpgrade 事件本身完全正常。用户当时正在频繁使用「战士快移」，游戏在推进，
+engaged 列表本来就在不停变动，命中这种瞬时状态的概率很高。
+
+新 DLL 已把这类扫描改成**跳过不匹配项继续找**（`continue`），不再「一处判不了就整条中止」，
+并且 `engaged_before` 与 `stage` 会把当时看到的一切写进日志。
+
+### 2026-10-15 第三轮：真正的原因找到了（ident 长度写错）
+
+装上带诊断的新版后，用户再点一次，日志 `soldier-result_*.json` 给出：
+`status = -7`、`stage = 4`（事件表里没有 SoldierUpgrade）、`hook_calls = 59`、`runs_started = 6`、
+`identity_fails = 0`。**挂钩这次真的跑起来了**，identity 校验也全过，问题只剩事件查不到。
+
+再对运行中的游戏（PID 24892）只读导出 `allEvents`，结果一目了然：
+
+```
+allEvents(0x68) count=344，owner 不匹配 0
+  [69] ident='SoldierUpgrade'  len=14     ← 真实长度是 14
+```
+
+**`"SoldierUpgrade"` 是 14 个字符（Soldier 7 + Upgrade 7），而 `upgradeIdent()` 里写的是
+`f<int>(text,0x10) != 13`。** 长度对不上就直接判定「不是这个事件」，于是永远找不到 →
+`stage=4` → `-7`。之前 19:32 那次取证漏掉它，是因为 Python 探针直接比对字符串、没有校验长度。
+
+修复：长度改为从字面量推导，避免再数错：
+
+```cpp
+const wchar_t expected[]=L"SoldierUpgrade";
+const int length=static_cast<int>(sizeof(expected)/sizeof(wchar_t))-1;   // 14
+if (!text || f<int>(text,0x10)!=length) return false;
+```
+
+新增回归用例：`native_upgrade_test.cpp` 的 scenario 3 故意把长度设成 13（旧 bug 的值），
+必须被判为 NOTFOUND —— 现在这条用例就是防这个错。全套 56 项通过。
+
+**修复后实机预演**（只读，不调用游戏函数）：事件找到 `0x1fba7135d20`、
+`engaged` 列表 count=0（没有待处理升级）、`blockGameEvents=0`、zone 非空
+—— 链条已能推进到调用 `HasSoldierUpgradesLeft` 与 `TryFire`。
+
+下一步：重启游戏加载新 DLL，再点一次"升级机会 +1"，预期 status=3（生成升级图标）。
+若变成 -5 则说明该存档士兵升级科技已全部买过且不可重复（stage=11），那要另想办法。
+
+### 2026-10-15 第四轮：实机验收通过 ✅
+
+用户实测：图标出现，成功。运行日志连续多条一致：
+
+```
+status=3  stage=10(OK)  event_found=1  has_upgrades_left=1  engaged_before=0/1
+opt_has_value=1  opt_is_object=0  created_count=1  identity_fails=0
+```
+
+`opt_is_object=0` 同时印证了 `Optional<EngagedCluster>` 走的是 `value`（偏移 0）而不是 `objectValue`，
+所以之前按 24 字节 / value+flags+objectValue 解析是对的。
+
+**用户附带的观察**：一名战士把全部升级技能点满之后，再升级时只剩「强化训练：提升战士战斗力」。
+这正好对应 `HasSoldierUpgradesLeft()` 判据里的 `tech.repeatable` 分支 —— 只要还有可重复购买的科技，
+升级机会就依然有效，行为符合设计。
+
+至此 2026-10-14 的两条待办全部关闭：
+1. 「经验不对 / 要有升级图标」→ 已改为调用游戏原生升级事件，实机通过。
+2. 「界面太长」→ 已改为 600×540 三页签。
+
+### 剩余事项
+
+- **合并文件夹**：✅ 已于 2026-10-15 完成（按 AGENTS.md 第 2 条）。
+  根目录旧源码整体移入 `versions/3337140_任务扩展版_20261014/`，25936576.1 的源码复制到根目录；
+  合并后从根目录跑测试 56 项通过。本目录保留作版本记录与开发环境（含原生测试 DLL、反汇编证据）。
+  详见 `versions/README.md` 与归档目录的 `README.md`。
+- **根 README 的幽灵路径**：✅ 已修正（`dist/teams_update/`→`dist/3/`，`dist/expedition_update/`→`dist/1/`），
+  并在根 README 末尾补了 `dist` 各 EXE 的取证身份表。
+- **版本登记**：✅ 已建 `versions/README.md`（版本号 + 功能 + 游戏号 + 哈希）；
+  `soldier_upgrade_work` 与任务扩展版都按来源+构建号+哈希登记（两者都没有内部版本号，不编造）。
+- **`dist\1..4` 按构建号改名**：仍未做。`after_inc_trainer` 与 `dist` 的所有者是旧沙箱账户
+  `LAPTOP-MGQ3TS3I\CodexSandboxOffline`，改名需先取回目录所有者身份；普通写入不受影响。

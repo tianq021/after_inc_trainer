@@ -1,0 +1,52 @@
+[
+  {
+    "path": "dist/AfterIncRevivalTrainer_CN.exe",
+    "size": 22016304,
+    "sha256": "3ae1e5cec152a78835dc45c65b8237dc8a9aeee4b4dc4e1155f2fad88acd6063"
+  },
+  {
+    "path": "versions/25936576.1_game25936576/dist/build_25936576_1/AfterIncRevivalTrainer_CN.exe",
+    "size": 22016304,
+    "sha256": "3ae1e5cec152a78835dc45c65b8237dc8a9aeee4b4dc4e1155f2fad88acd6063"
+  },
+  {
+    "path": "versions/history/unversioned_game-unknown_77f33f6d/AfterIncRevivalTrainer_CN.exe",
+    "size": 22048064,
+    "sha256": "77f33f6ddf7b8918b48d27601458fbbf61361929bc1f71859dc809fd079fd9e9"
+  },
+  {
+    "path": "versions/history/unversioned_game-unknown_9229f1f4/AfterIncRevivalTrainer_CN.exe",
+    "size": 21642527,
+    "sha256": "9229f1f4db0ab0de2a5316d4eb783800981c59d1527194d19b6706017833632f"
+  },
+  {
+    "path": "versions/history/unversioned_game-unknown_f45e293f/AfterIncRevivalTrainer_CN.exe",
+    "size": 22049494,
+    "sha256": "f45e293fcbee972ba63e89dd5a46062e0ddee64e5a65562f95b4a4c25bd233c6"
+  },
+  {
+    "path": "versions/history/unversioned_game24931318_7a755576/AfterIncRevivalTrainer_CN_before_tasks.exe",
+    "size": 21630956,
+    "sha256": "7a75557637be34cc29885d4e6dca9426c7f027697509c5c70b004d8da32ab413"
+  },
+  {
+    "path": "versions/history/unversioned_game25936576_5415ee4b/AfterIncRevivalTrainer_CN.exe",
+    "size": 22049089,
+    "sha256": "5415ee4b04e5f5d12e2e96b532148f44cef8057489ea420e4e013b02b3f4c9ce"
+  },
+  {
+    "path": "versions/history/unversioned_game25936576_6b3030c7/AfterIncRevivalTrainer_CN.exe",
+    "size": 22049194,
+    "sha256": "6b3030c7b1ab46587940a8e8541d7008ee283355e5b432e506eda5ba1582a782"
+  },
+  {
+    "path": "versions/history/unversioned_game25936576_6b3030c7/AfterIncRevivalTrainer_CN_default_copy.exe",
+    "size": 22049194,
+    "sha256": "6b3030c7b1ab46587940a8e8541d7008ee283355e5b432e506eda5ba1582a782"
+  },
+  {
+    "path": "soldier_upgrade_work/dist/AfterIncRevivalTrainer_CN.exe",
+    "size": 22057571,
+    "sha256": "bff69d6c1951bb2476c7c5d5586fc2b3ae530f5f1e5db014e36b322f79cd9bdb"
+  }
+]

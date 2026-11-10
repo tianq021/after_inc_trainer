@@ -1,0 +1,17 @@
+"3337140"
+{
+	"ChangeNumber"		"176"
+	"ostype"		"0"
+	"gamesettingsv2.bin"
+	{
+		"root"		"0"
+		"size"		"113120"
+		"localtime"		"1792418285"
+		"time"		"1792418284"
+		"remotetime"		"1792418144"
+		"sha"		"7d926c6af7ae9d384d783d0aac7c66263f120938"
+		"syncstate"		"3"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+}

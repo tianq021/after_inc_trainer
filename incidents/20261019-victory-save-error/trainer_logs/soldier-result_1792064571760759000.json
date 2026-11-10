@@ -1,0 +1,28 @@
+{
+  "flow": "result",
+  "action": "upgrade",
+  "status": -7,
+  "before": 0.0,
+  "after": 0.0,
+  "stage": "事件表里没有 SoldierUpgrade",
+  "diag": {
+    "hook_calls": 50,
+    "runs_started": 3,
+    "identity_fails": 0,
+    "stage": 4,
+    "event_found": 0,
+    "engaged_before": -1,
+    "has_upgrades_left": -1,
+    "opt_has_value": -1,
+    "opt_is_object": -1,
+    "created_count": -1,
+    "last_status": -7,
+    "reserved": 0,
+    "last_manager": 2180345546496,
+    "last_game": 2174671177152,
+    "last_global": 2179614511648,
+    "opt_value": 0,
+    "opt_object_value": 0
+  },
+  "hook_calls_since_arm": 1
+}

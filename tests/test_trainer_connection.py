@@ -8,6 +8,11 @@ import trainer_gui
 
 
 class TrainerConnectionTests(unittest.TestCase):
+    def setUp(self):
+        patcher = mock.patch.object(trainer_gui.game_build, 'verified', return_value={'root': 0x3D13B90})
+        patcher.start()
+        self.addCleanup(patcher.stop)
+
     def make_app(self) -> trainer_gui.TrainerApp:
         app = trainer_gui.TrainerApp.__new__(trainer_gui.TrainerApp)
         app.pid = 41

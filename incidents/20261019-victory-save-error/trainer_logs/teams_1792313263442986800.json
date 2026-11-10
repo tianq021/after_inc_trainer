@@ -1,0 +1,57 @@
+{
+  "status": "verified",
+  "pid": 16636,
+  "build": "25936576",
+  "kind": "build",
+  "target": 3,
+  "before": {
+    "game": 2462809545600,
+    "global_simulation": 2462525214160,
+    "manager": 2462624605120,
+    "dictionary": 2461414254368,
+    "entries": 2462687525056,
+    "count": 14,
+    "free_list": -1,
+    "free_count": 0,
+    "version": 14,
+    "teams": {
+      "explore": {
+        "count": 2,
+        "address": 2462687525104,
+        "key": 2459786615872
+      },
+      "build": {
+        "count": 1,
+        "address": 2462687525272,
+        "key": 2459786739712
+      }
+    }
+  },
+  "after": {
+    "game": 2462809545600,
+    "global_simulation": 2462525214160,
+    "manager": 2462624605120,
+    "dictionary": 2461414254368,
+    "entries": 2462687525056,
+    "count": 14,
+    "free_list": -1,
+    "free_count": 0,
+    "version": 14,
+    "teams": {
+      "explore": {
+        "count": 2,
+        "address": 2462687525104,
+        "key": 2459786615872
+      },
+      "build": {
+        "count": 3,
+        "address": 2462687525272,
+        "key": 2459786739712
+      }
+    },
+    "changed": "build",
+    "previous": 1,
+    "pid": 16636,
+    "build": "25936576"
+  }
+}

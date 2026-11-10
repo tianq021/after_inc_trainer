@@ -1,0 +1,15 @@
+{
+  "action": "experience",
+  "before": {
+    "object": 1801462813120,
+    "design": 1801201845104,
+    "ident": "soldier0",
+    "exp": 1.0299993753433228,
+    "squads": 0,
+    "weapons": 0,
+    "strength": 1.0,
+    "size": 1.0
+  },
+  "pid": 2460,
+  "build": "25936576"
+}

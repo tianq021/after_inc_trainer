@@ -1,38 +1,13 @@
-# -*- mode: python ; coding: utf-8 -*-
-
-
-a = Analysis(
-    ['G:/Codex_mmx/after_inc_trainer/trainer_gui.py'],
-    pathex=[],
-    binaries=[],
-    datas=[],
-    hiddenimports=[],
-    hookspath=[],
-    hooksconfig={},
-    runtime_hooks=[],
-    excludes=[],
-    noarchive=False,
-    optimize=0,
-)
+from pathlib import Path
+root = Path(SPECPATH)
+a = Analysis([str(root / 'trainer_gui.py')], pathex=[str(root)],
+             binaries=[(str(root / 'native' / 'AfterIncTaskExtension.dll'), 'native'),
+                       (str(root / 'native' / 'AfterIncSoldierUpgrade.dll'), 'native')],
+             datas=[], hiddenimports=[], hookspath=[], hooksconfig={},
+             runtime_hooks=[], excludes=[], noarchive=False, optimize=0)
 pyz = PYZ(a.pure)
-
-exe = EXE(
-    pyz,
-    a.scripts,
-    a.binaries,
-    a.datas,
-    [],
-    name='AfterIncRevivalTrainer_CN',
-    debug=False,
-    bootloader_ignore_signals=False,
-    strip=False,
-    upx=True,
-    upx_exclude=[],
-    runtime_tmpdir=None,
-    console=False,
-    disable_windowed_traceback=False,
-    argv_emulation=False,
-    target_arch=None,
-    codesign_identity=None,
-    entitlements_file=None,
-)
+exe = EXE(pyz, a.scripts, a.binaries, a.datas, [],
+          name='AfterIncRevivalTrainer_CN', debug=False,
+          bootloader_ignore_signals=False, strip=False, upx=False,
+          console=False, disable_windowed_traceback=False,
+          uac_admin=True, version=str(root / 'version_info.txt'))

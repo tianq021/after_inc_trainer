@@ -1,0 +1,16 @@
+{
+  "action": "upgrade",
+  "before": {
+    "object": 2576647960096,
+    "design": 2576649235904,
+    "ident": "soldier0",
+    "exp": 0.0,
+    "squads": 0,
+    "weapons": 0,
+    "strength": 1.0,
+    "size": 1.0
+  },
+  "pid": 39140,
+  "build": "25936576",
+  "hook_calls": 181
+}

@@ -7,6 +7,7 @@ No command changes files in the game installation directory.
 """
 
 from __future__ import annotations
+import session_log
 
 import argparse
 import bisect
@@ -387,7 +388,8 @@ def build_settlement_candidate(read, settlement_address: int) -> dict:
 
 
 def resolve_settlement_from_gameassembly(
-    handle: int, pid: int, module_base: int | None = None
+    handle: int, pid: int, module_base: int | None = None,
+    type_info_rva: int = STEAM_MANAGER_TYPE_INFO_RVA,
 ) -> dict:
     """Resolve the active settlement through a persistent native singleton.
 
@@ -419,7 +421,7 @@ def resolve_settlement_from_gameassembly(
         return value
 
     steam_manager_class = process_pointer(
-        module_base + STEAM_MANAGER_TYPE_INFO_RVA,
+        module_base + type_info_rva,
         "SteamManager type info",
     )
     static_fields = process_pointer(
@@ -687,6 +689,7 @@ def read_player_soldiers(read, candidate: dict) -> list[dict]:
     return result
 
 
+@session_log.audit
 def write_memory(handle: int, address: int, data: bytes) -> None:
     buffer = ctypes.create_string_buffer(data, len(data))
     written = ctypes.c_size_t()
@@ -698,6 +701,45 @@ def write_memory(handle: int, address: int, data: bytes) -> None:
             f"WriteProcessMemory failed at 0x{address:016X}; "
             f"wrote {written.value} of {len(data)} bytes"
         )
+
+
+WRITE_VERIFY_ATTEMPTS = 3
+WRITE_VERIFY_RETRY_SECONDS = 0.0015
+WRITE_VERIFY_READ_TRIES = 3
+
+
+def write_verified(
+    handle: int,
+    address: int,
+    data: bytes,
+    attempts: int = WRITE_VERIFY_ATTEMPTS,
+    retry_delay: float = WRITE_VERIFY_RETRY_SECONDS,
+) -> dict:
+    """Write ``data`` and confirm the value sticks across a short race.
+
+    A live game rewrites its own resource fields from another thread, so bytes
+    that differ microseconds after a successful ``WriteProcessMemory`` are not
+    proof of a stale address.  Rewrite and re-read a few times before reporting
+    a conflict; ``observed`` keeps the last bytes read for the audit log, and an
+    empty ``observed`` means the read-back itself failed rather than returned a
+    foreign value.
+    """
+    attempts = max(1, int(attempts))
+    observed = b""
+    used = 0
+    for attempt in range(1, attempts + 1):
+        used = attempt
+        write_memory(handle, address, data)
+        for _ in range(max(1, int(WRITE_VERIFY_READ_TRIES))):
+            observed = read_memory(handle, address, len(data))
+            if observed == data:
+                return dict(verified=True, observed=observed, attempts=attempt)
+            if observed:
+                break  # A value is there, but the game owns it: rewrite.
+            time.sleep(retry_delay)
+        if attempt < attempts:
+            time.sleep(retry_delay)
+    return dict(verified=False, observed=observed, attempts=used)
 
 
 def parse_named_values(items: list[str]) -> dict[str, int]:

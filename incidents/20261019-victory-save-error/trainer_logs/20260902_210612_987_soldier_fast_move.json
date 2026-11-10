@@ -1,0 +1,16 @@
+{
+  "created_local": "2026-09-02 21:06:12",
+  "process": "After Inc. Revival.exe",
+  "pid": 28736,
+  "key": "soldier_fast_move",
+  "target_turns": 1.0,
+  "changes": [
+    {
+      "index": 0,
+      "soldier": "0x0000014A0EB31540",
+      "address": "0x0000014A0EB315B8",
+      "before": 10.0,
+      "after": 1.0
+    }
+  ]
+}

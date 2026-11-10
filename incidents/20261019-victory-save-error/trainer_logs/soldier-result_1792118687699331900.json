@@ -1,0 +1,27 @@
+{
+  "flow": "result",
+  "action": "weapon",
+  "status": 3,
+  "before": 1.75,
+  "after": 2.0,
+  "diag": {
+    "hook_calls": 7,
+    "runs_started": 4,
+    "identity_fails": 0,
+    "stage": 0,
+    "event_found": 0,
+    "engaged_before": 0,
+    "has_upgrades_left": 0,
+    "opt_has_value": 0,
+    "opt_is_object": 0,
+    "created_count": 0,
+    "last_status": 3,
+    "reserved": 0,
+    "last_manager": 2564205692672,
+    "last_game": 2576645452880,
+    "last_global": 2576392573200,
+    "opt_value": 0,
+    "opt_object_value": 0
+  },
+  "hook_calls_since_arm": 1
+}

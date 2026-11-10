@@ -1,95 +1,52 @@
-# After Inc: Revival memory analysis helper
+# After Inc: Revival 修改器
 
-## 2026-09-19: 远征任务刷新
+当前修改器版本 **26049821.4**，Steam App ID **3337140**，主要对应游戏构建 **26049821**。
 
-新版程序：`dist/expedition_update/AfterIncRevivalTrainer_CN.exe`（原版 EXE 保留）。
-在“远征任务”区域点击“读取状态”，然后点击“刷新任务（推进1天）”。
-每次操作将游戏远征系统的虚拟日期增加一天；返回世界地图并重新进入选关界面，
-必要时切换赛季，让游戏重新生成任务卡片。“恢复真实日期”将日期偏移设回零，
-不会撤销已经完成的任务或奖励。此功能不依赖关卡资源扫描，未进入定居点也能使用。
+本版只改“写入后校验”的容错：写入被游戏抢占时自动重写重读（最多 3 次），持续锁定遇到抢占改为瞬时错误，不再一次失败就停掉全部锁定并弹窗；手动设置只有在连续重试仍失败时才提示暂停后再试。详见 [版本说明](versions/26049821.4_game26049821/README.md)。
 
-实现只修改 `GameSettings.randLevelSeeding.manualDebugFutureDays`，不修改系统时间。
-每次操作均验证已加载模块对应文件的 SHA-256、两级对象类型及字段范围；
-操作期间按钮禁用，写入前后复核对象状态。日志保存在原日志目录。
-权限不足时使用与游戏相同的权限运行修改器。
+## 自动日志
 
-已验证：19 项自动测试通过，当前游戏进程只读连接成功，初始日期偏移为 0。
-待实机验收：推进后的任务卡片重建、进入关卡、完成记录及重启后的偏移状态。
-本次没有自动改变正在运行的游戏日期；首次使用请在选关界面操作。
+启动即监控，关闭即停止；每次运行在 EXE 旁 logs 中生成独立目录。正常关闭等待正在进行的修改完成。详见 [日志与自动监控说明](docs/日志与自动监控说明.md)。
 
-This folder contains build-specific memory analysis helpers used to locate the
-values needed by a small offline trainer.
+## 启动
 
-The GUI now connects through a native, process-stable root recovered from the
-supported `GameAssembly.dll`.  Every 500 ms it follows `SteamManager.s_instance
--> launch -> scenarioLauncher -> GameController -> GlobalSimulation ->
-WorldSettlementSimulator`, then validates the complete bidirectional world
-cycle and every production type before reading or writing.  `SetUpGame()`
-publishes the current `GameController` to that root after each scene load, so a
-save reload, level change, or process restart normally requires only a handful
-of pointer reads and no private-memory search.
+直接运行 [dist/AfterIncRevivalTrainer_CN.exe](dist/AfterIncRevivalTrainer_CN.exe)。默认入口已统一为 26049821.4，文件与版本存档逐字节一致。
 
-The slow full structural locator is no longer started automatically during a
-scene transition.  While the stable root is temporarily unpublished, the GUI
-waits and retries; reads, writes, and continuous locks remain paused.  The
-**完整扫描重新定位** button retains the full locator as a manual diagnostic
-fallback for the exact supported build.
+经验问题沿用 26049821.3 的修复：通过“升级机会 +1”生成游戏原生升级图标，再由玩家在游戏里选择奖励。详细操作、拒绝码及限制见[当前版本说明](versions/26049821.4_game26049821/README.md)。
 
-The GUI also provides **战士快速移动** for player-controlled soldiers.  It
-follows the active world's `MovingSoldierManager`, validates the managed list
-and each soldier/design back-reference, then reduces only an active journey
-whose timer is greater than one to exactly `1.0`.  The next normal game step
-still executes the game's own arrival callback.  It does not enumerate or
-write enemy-unit collections, and it never writes `0` to bypass arrival logic.
+## 当前功能
 
-For the complete project state, scan results, continuation procedure, and the
-correction that the top-left value is manpower rather than stamina, read
-`After_Inc_修改器项目进度与续作手册.md` first.
+- 资源、耐心、权威修改与锁定，战士快速移动。
+- 探索与建设队伍增量、队伍数量保持。
+- 战士升级机会、武器 +0.25、小队 +0.25。
+- 远征日期刷新、随机任务扩展。
+- 600×540 三页签界面：资源、队伍与升级、远征与地图。
 
-The `initial`, `refine`, `inspect`, and `locate-settlement` commands request only
-`PROCESS_QUERY_INFORMATION` and `PROCESS_VM_READ`.
+各功能依照 GameAssembly.dll 精确哈希校验支持范围；战士升级仅支持 26049821。Steam App ID、游戏构建号和修改器版本号是不同概念。
 
-The separate `write-float32` command performs one checked float write only when
-the current value exactly matches `--expected` and the exact confirmation phrase
-is supplied. It logs the old/new value and a restore command. It does not modify
-game files.
+## 文件布局
 
-`write-int32` provides the same old-value check and logging for one integer.
-`write-float32-batch` preflights every item before writing and rolls back already
-written items if a later write or verification fails.
+| 位置 | 用途 |
+| --- | --- |
+| 根目录 Python 文件、native/、tests/ | 已合并的 26049821.4 当前源码与测试 |
+| dist/ | 当前默认应用 |
+| versions/26049821.4_game26049821/ | 当前版原始源码、程序及验证资料快照 |
+| versions/26049821.3_game26049821/ | 上一版快照，保留原样 |
+| versions/history/ | 早期历史应用，每版附功能、游戏号和 SHA-256 |
+| versions/3337140_任务扩展版_20261014/ | 先前合并时保留的旧源码，原名称保留 |
+| soldier_upgrade_work/ | 经验修复前开发版源码与应用，保留原位置供追溯 |
+| docs/history/before_organization_20261015/ | 整理前文档、应用清单和整理后清单 |
+| build/、il2cpp_dump/、tools/、scans/、structure_scans/、write_tests/、backups/ | 构建、分析及备份资料，保留原位置 |
 
-For Steam build `24931318`, IL2CPP metadata version 31 identifies
-`WorldSettlementSimulator` and `StandaloneProduction._total`. The following
-command performs a read-only structural search and verifies all production
-objects by their `ResourceType` values:
+完整版本登记见 [versions/README.md](versions/README.md)。根目录其他技术说明及历史复盘保留作背景资料；其中旧路径按版本索引查找，当前状态以本文件及“下一步.txt”为准。
+
+## 开发与打包
+
+使用系统 Python 3.10，在项目根目录执行：
 
 ```powershell
-python memory_scan.py locate-settlement `
-  --process "After Inc. Revival.exe" `
-  --output structure_scans\build_24931318_settlement.json
+python -m unittest discover -s tests
+python -m PyInstaller --noconfirm --distpath dist --workpath build/build_26049821_4 AfterIncRevivalTrainer_CN.spec
 ```
 
-The first successful run found exactly one settlement object. Absolute object
-addresses remain valid only for the current game process; the packaged GUI does
-not reuse them and instead resolves the current object from the stable native
-root after every restart.  The command above remains useful for diagnostics.
-The current automated rebind and soldier-movement tests can be run with:
-
-```powershell
-python -m unittest discover -s tests -v
-```
-
-Initial screenshot values for Steam build `24931318`:
-
-- manpower: 0 (not scanned because zero has too many false matches)
-- food: 1
-- water: 1
-- wood: 2
-- fuel: 4
-- authority: 51
-
-Stamina was not visible in the supplied screenshot and must be scanned from a
-screen where its exact value is shown or can be changed.
-
-`food` and `water` intentionally share the first candidate set because their
-initial values are identical. A later exact-value change separates them.
+2026-10-24：26049821.4 修正写入后校验的容错（重试 + 抢占归为瞬时错误），74 项测试通过、打包成功。上一版实机验收记录见 [26049821.3 版本说明](versions/26049821.3_game26049821/README.md)；本版仍需在运行中的游戏里复验人力锁定。旧版 25936576.1 完整保留。

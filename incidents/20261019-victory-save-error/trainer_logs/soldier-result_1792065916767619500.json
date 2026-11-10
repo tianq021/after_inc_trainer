@@ -1,0 +1,27 @@
+{
+  "flow": "result",
+  "action": "upgrade",
+  "status": 3,
+  "before": 0.0,
+  "after": 0.0,
+  "diag": {
+    "hook_calls": 211,
+    "runs_started": 4,
+    "identity_fails": 0,
+    "stage": 10,
+    "event_found": 1,
+    "engaged_before": 0,
+    "has_upgrades_left": 1,
+    "opt_has_value": 1,
+    "opt_is_object": 0,
+    "created_count": 1,
+    "last_status": 3,
+    "reserved": 0,
+    "last_manager": 2684289279296,
+    "last_game": 2679330293184,
+    "last_global": 2684901588432,
+    "opt_value": 2686236979712,
+    "opt_object_value": 0
+  },
+  "hook_calls_since_arm": 1
+}

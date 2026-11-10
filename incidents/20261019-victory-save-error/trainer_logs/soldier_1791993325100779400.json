@@ -1,0 +1,15 @@
+{
+  "action": "squad",
+  "before": {
+    "object": 1802055943264,
+    "design": 1801143859616,
+    "ident": "soldier0",
+    "exp": 1.429999828338623,
+    "squads": 2,
+    "weapons": 10,
+    "strength": 3.5,
+    "size": 1.5
+  },
+  "pid": 2460,
+  "build": "25936576"
+}

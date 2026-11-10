@@ -1,0 +1,496 @@
+{"time": "2026-10-19T22:01:44.592295+08:00", "event": "started", "monitor_pid": 43908, "duration_minutes": 30}
+{"time": "2026-10-19T22:01:55.089496+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 99.3125, "rss": 33017856, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.046875, "rss": 737280, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.75, "rss": 1273856, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 549.328125, "rss": 1226178560, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:01:55.092022+08:00", "event": "log_open_or_rotation"}
+{"time": "2026-10-19T22:01:55.094378+08:00", "event": "log_growth", "bytes": 1179769, "offset": 1179769}
+{"time": "2026-10-19T22:02:01.204381+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 101.203125, "rss": 33574912, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.046875, "rss": 741376, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.75, "rss": 1273856, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 570.1875, "rss": 1277337600, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:02:01.207244+08:00", "event": "log_growth", "bytes": 22450, "offset": 1202219}
+{"time": "2026-10-19T22:02:08.187336+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 102.609375, "rss": 34287616, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 749568, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.75, "rss": 1273856, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 597.484375, "rss": 1253625856, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:02:08.190851+08:00", "event": "log_growth", "bytes": 66137, "offset": 1268356}
+{"time": "2026-10-19T22:02:14.280714+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 104.171875, "rss": 34463744, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 749568, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.75, "rss": 1273856, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 616.453125, "rss": 1237917696, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:02:14.282715+08:00", "event": "log_growth", "bytes": 39746, "offset": 1308102}
+{"time": "2026-10-19T22:02:21.101591+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 105.765625, "rss": 35045376, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 749568, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.75, "rss": 1273856, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 637.296875, "rss": 1248493568, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:02:21.105123+08:00", "event": "log_growth", "bytes": 6587, "offset": 1314689}
+{"time": "2026-10-19T22:02:27.369756+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 107.234375, "rss": 35405824, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 749568, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.75, "rss": 1273856, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 658.546875, "rss": 1251676160, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:02:27.372754+08:00", "event": "log_growth", "bytes": 6194, "offset": 1320883}
+{"time": "2026-10-19T22:02:33.651279+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 108.65625, "rss": 36356096, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 749568, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.75, "rss": 1273856, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 678.78125, "rss": 1267904512, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:02:33.654235+08:00", "event": "log_growth", "bytes": 5339, "offset": 1326222}
+{"time": "2026-10-19T22:02:40.369925+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 110.203125, "rss": 36356096, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 749568, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.75, "rss": 1273856, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 701.90625, "rss": 1262043136, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:02:40.372444+08:00", "event": "log_growth", "bytes": 42967, "offset": 1369189}
+{"time": "2026-10-19T22:02:46.664577+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 111.703125, "rss": 36704256, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 749568, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.75, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 722.359375, "rss": 1262141440, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:02:46.667585+08:00", "event": "log_growth", "bytes": 29931, "offset": 1399120}
+{"time": "2026-10-19T22:02:54.971923+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 113.875, "rss": 37154816, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 1978368, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.75, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 749.9375, "rss": 1249632256, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:02:54.973924+08:00", "event": "log_growth", "bytes": 17241, "offset": 1416361}
+{"time": "2026-10-19T22:03:01.644593+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 115.71875, "rss": 37638144, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 1978368, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.75, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 774.25, "rss": 1248768000, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:03:01.647582+08:00", "event": "log_growth", "bytes": 7913, "offset": 1424274}
+{"time": "2026-10-19T22:03:08.040887+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 117.234375, "rss": 38297600, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 1978368, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 795.9375, "rss": 1252548608, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:03:08.044349+08:00", "event": "log_growth", "bytes": 37095, "offset": 1461369}
+{"time": "2026-10-19T22:03:14.242345+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 118.71875, "rss": 38498304, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 1978368, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 818.28125, "rss": 1270734848, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:03:14.245096+08:00", "event": "log_growth", "bytes": 7412, "offset": 1468781}
+{"time": "2026-10-19T22:03:20.400925+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 120.0625, "rss": 38936576, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 1978368, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 836.25, "rss": 1422135296, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:03:20.403494+08:00", "event": "log_growth", "bytes": 59321, "offset": 1528102}
+{"time": "2026-10-19T22:03:26.681426+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 121.375, "rss": 39272448, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 1978368, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 853.5625, "rss": 1335611392, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:03:26.684511+08:00", "event": "log_growth", "bytes": 9678, "offset": 1537780}
+{"time": "2026-10-19T22:03:32.951337+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 122.8125, "rss": 40230912, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 1978368, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 875.953125, "rss": 1318498304, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:03:32.953596+08:00", "event": "log_growth", "bytes": 9007, "offset": 1546787}
+{"time": "2026-10-19T22:03:39.240125+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 124.1875, "rss": 40222720, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 1978368, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 897.609375, "rss": 1322352640, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:03:39.243284+08:00", "event": "log_growth", "bytes": 7468, "offset": 1554255}
+{"time": "2026-10-19T22:03:45.398628+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 125.453125, "rss": 40730624, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 1978368, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 919.65625, "rss": 1323008000, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:03:45.401306+08:00", "event": "log_growth", "bytes": 16328, "offset": 1570583}
+{"time": "2026-10-19T22:03:51.761269+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 126.90625, "rss": 41132032, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 1978368, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 942.046875, "rss": 1314934784, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:03:51.763356+08:00", "event": "log_growth", "bytes": 32392, "offset": 1602975}
+{"time": "2026-10-19T22:03:57.913487+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 128.40625, "rss": 41574400, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 1978368, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 960.265625, "rss": 1339109376, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:03:57.916132+08:00", "event": "log_growth", "bytes": 19833, "offset": 1622808}
+{"time": "2026-10-19T22:04:04.197629+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 129.828125, "rss": 42520576, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 1998848, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 980.375, "rss": 1375682560, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:04:04.200142+08:00", "event": "log_growth", "bytes": 36995, "offset": 1659803}
+{"time": "2026-10-19T22:04:10.774988+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 131.28125, "rss": 42876928, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 1998848, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 1002.078125, "rss": 1332064256, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:04:10.778509+08:00", "event": "log_growth", "bytes": 25333, "offset": 1685136}
+{"time": "2026-10-19T22:04:16.941884+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 132.828125, "rss": 43327488, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 1998848, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 1023.765625, "rss": 1324146688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:04:16.944407+08:00", "event": "log_growth", "bytes": 13020, "offset": 1698156}
+{"time": "2026-10-19T22:04:24.898815+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 134.765625, "rss": 43855872, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 1998848, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 1054.3125, "rss": 1346355200, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:04:24.901333+08:00", "event": "log_growth", "bytes": 12716, "offset": 1710872}
+{"time": "2026-10-19T22:04:30.955386+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 136.265625, "rss": 44904448, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 2084864, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 1072.6875, "rss": 1322762240, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:04:30.957395+08:00", "event": "log_growth", "bytes": 12166, "offset": 1723038}
+{"time": "2026-10-19T22:04:37.063694+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 137.5625, "rss": 45821952, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 2084864, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 1095.4375, "rss": 1329037312, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:04:37.066272+08:00", "event": "log_growth", "bytes": 22204, "offset": 1745242}
+{"time": "2026-10-19T22:04:43.027455+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 138.875, "rss": 46010368, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 2084864, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 1117.796875, "rss": 1325092864, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:04:43.030117+08:00", "event": "log_growth", "bytes": 11647, "offset": 1756889}
+{"time": "2026-10-19T22:04:48.349667+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 140.109375, "rss": 46379008, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 2093056, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 1129.65625, "rss": 1379512320, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:04:48.352239+08:00", "event": "log_growth", "bytes": 60786, "offset": 1817675}
+{"time": "2026-10-19T22:04:53.833445+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 141.375, "rss": 46694400, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 2093056, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 1137.15625, "rss": 1268084736, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:04:53.837838+08:00", "event": "log_growth", "bytes": 3656, "offset": 1821331}
+{"time": "2026-10-19T22:04:59.354365+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 143.109375, "rss": 50135040, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 2093056, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 1143.953125, "rss": 1248059392, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:04:59.355871+08:00", "event": "log_growth", "bytes": 3427, "offset": 1824758}
+{"time": "2026-10-19T22:05:04.685315+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 144.328125, "rss": 50098176, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 2093056, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 1149.890625, "rss": 1248370688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:05:04.687194+08:00", "event": "log_growth", "bytes": 1571, "offset": 1826329}
+{"time": "2026-10-19T22:05:11.407172+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 145.59375, "rss": 50278400, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 2093056, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.765625, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 1159.109375, "rss": 1246736384, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:05:17.331801+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 147.265625, "rss": 50372608, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 2093056, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.78125, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 1167.40625, "rss": 1246781440, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:05:22.686954+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 148.59375, "rss": 50520064, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 2093056, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.78125, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 1172.96875, "rss": 1247764480, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:05:28.260732+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417892.0750325, "ppid": 32156, "pid": 11120, "cpu": 149.90625, "rss": 51838976, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 2093056, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792417890.213826, "ppid": 13624, "pid": 32156, "cpu": 1.78125, "rss": 1241088, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792418267.4059167, "ppid": 20312, "pid": 41108, "cpu": 1179.140625, "rss": 1206497280, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:05:28.263248+08:00", "event": "log_growth", "bytes": 11828, "offset": 1838157}
+{"time": "2026-10-19T22:05:33.800427+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792418267.4548361, "ppid": 41108, "pid": 16800, "cpu": 0.0625, "rss": 2093056, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}]}
+{"time": "2026-10-19T22:05:33.802426+08:00", "event": "log_growth", "bytes": 2441, "offset": 1840598}
+{"time": "2026-10-19T22:05:37.951738+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:05:41.595339+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:05:45.095827+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:05:48.579952+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:05:52.115730+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:05:55.646412+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:05:59.234014+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:06:02.926451+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:06:06.468535+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:06:10.037152+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:06:13.581155+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:06:17.111858+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:06:20.633444+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:06:24.186524+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:06:27.728228+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:06:31.312018+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:06:34.835663+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:06:38.377129+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:06:41.920172+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:06:45.478799+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:06:49.037026+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:06:52.577012+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:06:56.182000+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:06:59.718688+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:07:03.300314+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:07:06.831724+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:07:10.430925+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:07:14.034269+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:07:17.727304+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:07:21.895819+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:07:25.845764+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:07:29.370340+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:07:32.930557+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:07:36.482268+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:07:40.035778+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:07:43.592437+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:07:47.121086+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:07:50.642138+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:07:54.453416+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:07:58.023000+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:08:01.789708+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:08:05.473970+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:08:09.270612+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:08:12.790932+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:08:16.378471+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:08:19.966528+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:08:23.594602+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:08:27.146361+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:08:30.682529+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:08:34.196181+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:08:37.717308+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:08:41.295943+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:08:44.902459+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:08:48.468869+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:08:52.044230+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:08:55.602809+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:08:59.120269+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:09:02.679566+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:09:06.379017+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:09:09.899937+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:09:13.438521+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:09:17.163747+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:09:20.640899+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:09:24.127824+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:09:27.564853+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:09:31.004724+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:09:34.503415+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:09:37.982605+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:09:41.434032+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:09:44.928332+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:09:48.374935+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:09:51.806984+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:09:55.304149+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:09:58.755405+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:10:02.364427+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:10:05.927996+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:10:09.393458+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:10:12.868617+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:10:16.354029+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:10:19.844719+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:10:23.308658+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:10:26.815567+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:10:30.301777+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:10:33.788138+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:10:37.249751+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:10:40.716874+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:10:44.174386+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:10:47.660471+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:10:51.140711+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:10:54.583838+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:10:58.114167+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:11:01.568639+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:11:05.010584+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:11:08.487399+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:11:11.944926+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:11:15.368620+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:11:18.808547+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:11:22.217931+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:11:25.661567+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:11:29.104748+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:11:32.522474+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:11:35.942487+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:11:39.384028+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:11:42.842451+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:11:46.268945+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:11:49.698408+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:11:53.180840+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:11:56.598936+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:00.052926+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:03.525327+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:06.945576+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:10.368688+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:13.845291+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:17.260765+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:20.671332+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:24.134768+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:27.554973+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:30.964666+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:34.378267+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:37.787310+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:41.223276+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:44.657589+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:48.078865+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:51.505192+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:54.932954+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:12:58.386415+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:13:01.801077+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:13:05.224310+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:13:08.667350+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:13:12.078552+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:13:15.470823+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:13:18.907316+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:13:22.295879+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:13:25.718597+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:13:29.117625+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:13:32.529403+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:13:35.914348+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:13:39.361527+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:13:42.770588+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:13:46.172378+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:13:49.688883+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:13:53.122554+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:13:56.519949+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:00.039620+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:03.452967+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:06.889061+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:10.413515+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:13.828345+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:17.213374+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:20.760231+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:24.159024+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:27.548099+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:31.002114+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:34.389728+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:37.789138+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:41.253301+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:44.633346+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:48.026346+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:51.448251+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:54.862247+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:14:58.298716+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:01.746555+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:05.175154+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:08.577018+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:12.023800+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:15.439527+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:18.841899+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:22.271478+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:25.740008+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:29.130366+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:32.560362+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:36.054344+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:39.452249+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:42.896289+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:46.364539+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:49.745828+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:53.152780+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:56.545791+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:15:59.993840+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:16:03.430827+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:16:06.856483+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:16:10.260395+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:16:13.678566+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:16:17.088679+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:16:20.500038+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:16:23.906329+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:16:27.319935+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:16:30.711288+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:16:34.106010+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:16:37.506785+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:16:40.891458+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:16:44.276261+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:16:47.633850+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:16:51.013682+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:16:54.375386+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:16:57.731941+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:01.200805+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:04.594354+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:07.954243+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:11.365713+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:14.743610+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:18.124380+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:21.514446+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:24.885036+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:28.242492+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:31.602273+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:34.957923+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:38.327815+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:41.695456+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:45.067969+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:48.418485+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:51.791847+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:55.162660+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:17:58.532063+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:01.952283+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:05.334413+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:08.701850+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:12.062023+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:15.492428+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:18.861233+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:22.221136+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:25.643195+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:29.010714+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:32.373253+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:35.812624+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:39.186556+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:42.574050+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:45.948745+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:49.324001+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:52.694832+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:56.117870+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:18:59.495592+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:19:02.891078+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:19:06.256620+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:19:09.625251+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:19:12.997785+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:19:16.396665+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:19:19.781508+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:19:23.160386+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:19:26.594172+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:19:29.984937+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:19:33.382251+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:19:36.794019+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:19:40.225691+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:19:43.603283+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:19:47.003175+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:19:50.419352+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:19:53.808189+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:19:57.199910+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:00.632719+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:04.024799+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:07.401179+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:10.785859+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:14.158465+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:17.553528+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:20.906316+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:24.303456+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:27.651776+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:30.995065+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:34.359551+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:37.753975+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:41.135644+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:44.509036+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:47.895497+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:51.264689+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:54.632078+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:20:58.029377+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:21:01.414504+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:21:04.846503+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:21:08.547288+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:21:12.223561+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:21:15.645159+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:21:19.047970+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:21:22.532284+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:21:26.232774+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419684.099498, "ppid": 35404, "pid": 28792, "cpu": 0.265625, "rss": 35913728, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419683.1912847, "ppid": 13624, "pid": 35404, "cpu": 0.71875, "rss": 10772480, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:21:30.724745+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419684.099498, "ppid": 35404, "pid": 28792, "cpu": 0.421875, "rss": 36052992, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419683.1912847, "ppid": 13624, "pid": 35404, "cpu": 0.71875, "rss": 10772480, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:21:30.725939+08:00", "event": "log_open_or_rotation"}
+{"time": "2026-10-19T22:21:30.726970+08:00", "event": "log_growth", "bytes": 804, "offset": 804}
+{"time": "2026-10-19T22:21:36.414648+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419684.099498, "ppid": 35404, "pid": 28792, "cpu": 0.625, "rss": 36782080, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.046875, "rss": 35082240, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419683.1912847, "ppid": 13624, "pid": 35404, "cpu": 0.71875, "rss": 10772480, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 3.4375, "rss": 729980928, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:21:36.416641+08:00", "event": "log_growth", "bytes": 44745, "offset": 45549}
+{"time": "2026-10-19T22:21:42.371498+08:00", "event": "processes", "processes": [{"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419696.9999912, "ppid": 13624, "pid": 14264, "cpu": 1.015625, "rss": 10768384, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.046875, "rss": 35082240, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 12.0625, "rss": 705765376, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:21:42.373023+08:00", "event": "log_growth", "bytes": 5133, "offset": 50682}
+{"time": "2026-10-19T22:21:48.178693+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.046875, "rss": 16384, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 0.921875, "rss": 15527936, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 20.875, "rss": 706371584, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.90625, "rss": 65536, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:21:53.837199+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 397312, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 1.546875, "rss": 20094976, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 27.5, "rss": 795824128, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.90625, "rss": 65536, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:21:53.840172+08:00", "event": "log_growth", "bytes": 9734, "offset": 60416}
+{"time": "2026-10-19T22:22:00.351311+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 524288, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 1.9375, "rss": 20529152, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 38.546875, "rss": 792190976, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.90625, "rss": 65536, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:22:06.832047+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 524288, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 2.34375, "rss": 20942848, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 50.703125, "rss": 746475520, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.90625, "rss": 77824, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:22:13.119067+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 524288, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 2.671875, "rss": 21307392, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 61.609375, "rss": 746496000, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.90625, "rss": 1134592, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:22:19.113394+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 524288, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 3.0625, "rss": 21782528, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 70.609375, "rss": 747941888, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.90625, "rss": 1134592, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:22:25.120272+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 622592, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 3.5625, "rss": 22167552, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 79.84375, "rss": 758669312, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.90625, "rss": 1134592, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:22:25.124199+08:00", "event": "log_growth", "bytes": 3664, "offset": 64080}
+{"time": "2026-10-19T22:22:31.249577+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 4.140625, "rss": 22958080, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 89.90625, "rss": 759394304, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.90625, "rss": 1134592, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:22:31.252095+08:00", "event": "log_growth", "bytes": 3664, "offset": 67744}
+{"time": "2026-10-19T22:22:37.737262+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 4.578125, "rss": 23879680, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 101.84375, "rss": 755572736, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.90625, "rss": 1134592, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:22:43.909816+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 4.96875, "rss": 24014848, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 113.78125, "rss": 756445184, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.90625, "rss": 1130496, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:22:50.012813+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 5.375, "rss": 24047616, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 126.96875, "rss": 756420608, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.921875, "rss": 1130496, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:22:55.973984+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 5.71875, "rss": 24276992, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 137.90625, "rss": 752713728, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.921875, "rss": 1130496, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:23:02.025159+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 6.125, "rss": 24645632, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 148.59375, "rss": 752668672, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.9375, "rss": 1130496, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:23:07.924122+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 6.59375, "rss": 24956928, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 158.9375, "rss": 752680960, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.9375, "rss": 1130496, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:23:13.949297+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 6.921875, "rss": 25280512, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 169.625, "rss": 752693248, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.9375, "rss": 1130496, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:23:20.174317+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 7.421875, "rss": 25612288, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 180.8125, "rss": 752705536, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.9375, "rss": 1130496, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:23:26.350821+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 7.828125, "rss": 25923584, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 193.28125, "rss": 752721920, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.9375, "rss": 1130496, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:23:32.491038+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 8.21875, "rss": 26849280, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 207.421875, "rss": 752734208, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.9375, "rss": 1130496, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:23:38.796595+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 8.640625, "rss": 26886144, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 219.921875, "rss": 752693248, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.9375, "rss": 1130496, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:23:44.773340+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 9.03125, "rss": 27000832, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 230.125, "rss": 752668672, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.9375, "rss": 1130496, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:23:50.705438+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 9.40625, "rss": 27312128, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 240.546875, "rss": 752635904, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.9375, "rss": 1130496, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:23:56.608535+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419702.5774775, "ppid": 40756, "pid": 35620, "cpu": 9.8125, "rss": 27611136, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 249.15625, "rss": 753352704, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}, {"name": "AfterIncRevivalTrainer_CN.exe", "create_time": 1792419701.5384798, "ppid": 13624, "pid": 40756, "cpu": 0.9375, "rss": 1208320, "exe": "G:\\Trainer\\after_inc_trainer\\dist\\AfterIncRevivalTrainer_CN.exe"}]}
+{"time": "2026-10-19T22:24:02.723241+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 249.4375, "rss": 753328128, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:24:08.302336+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 249.453125, "rss": 753143808, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:24:13.914585+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 249.53125, "rss": 751673344, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:24:19.685495+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 249.578125, "rss": 751673344, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:24:25.230124+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 249.578125, "rss": 751673344, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:24:30.488181+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 249.671875, "rss": 751673344, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:24:35.814484+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 249.71875, "rss": 751673344, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:24:41.108943+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 249.78125, "rss": 751472640, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:24:46.964618+08:00", "event": "processes", "processes": [{"name": "UnityCrashHandler64.exe", "create_time": 1792419689.1622024, "ppid": 37712, "pid": 29612, "cpu": 0.0625, "rss": 626688, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\UnityCrashHandler64.exe"}, {"name": "After Inc. Revival.exe", "create_time": 1792419689.1102302, "ppid": 20312, "pid": 37712, "cpu": 249.828125, "rss": 751521792, "exe": "F:\\SteamLibrary\\steamapps\\common\\After Inc\\After Inc. Revival.exe"}]}
+{"time": "2026-10-19T22:24:52.832126+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:24:56.928324+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:25:01.147052+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:25:05.137377+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:25:09.025541+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:25:13.141959+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:25:17.009631+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:25:21.298561+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:25:25.447542+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:25:29.937380+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:25:34.401816+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:25:39.040108+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:25:43.523643+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:25:47.513914+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:25:51.343929+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:25:55.646979+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:25:59.496279+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:26:03.352732+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:26:07.484654+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:26:11.297565+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:26:15.177631+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:26:19.174647+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:26:23.746662+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:26:27.740579+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:26:31.449403+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:26:35.504365+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:26:39.413659+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:26:43.174624+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:26:47.216256+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:26:52.439800+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:26:56.521478+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:27:00.223860+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:27:04.045443+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:27:07.884895+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:27:11.637679+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:27:15.930464+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:27:20.133329+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:27:25.197101+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:27:29.405800+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:27:33.815273+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:27:37.902783+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:27:42.239289+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:27:46.619671+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:27:50.587078+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:27:54.441450+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:27:58.139165+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:28:01.818653+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:28:05.412431+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:28:09.144938+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:28:12.753557+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:28:16.396951+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:28:19.996946+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:28:23.599928+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:28:27.268988+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:28:30.891510+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:28:34.509930+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:28:38.161651+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:28:41.803725+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:28:45.426118+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:28:49.086127+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:28:52.673955+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:28:56.285032+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:28:59.965234+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:29:03.542545+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:29:07.123555+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:29:10.716985+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:29:14.651361+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:29:18.346775+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:29:21.984609+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:29:25.707727+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:29:29.366695+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:29:33.022368+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:29:36.588405+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:29:40.215236+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:29:43.874291+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:29:47.460499+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:29:51.083834+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:29:54.694320+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:29:58.434049+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:30:02.007558+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:30:05.610342+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:30:09.273614+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:30:12.874083+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:30:16.440784+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:30:20.050204+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:30:23.634095+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:30:27.199682+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:30:30.786226+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:30:34.380514+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:30:37.953536+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:30:41.541345+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:30:45.114416+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:30:49.034112+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:30:52.598019+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:30:56.169143+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:30:59.744339+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:31:03.314786+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:31:06.874084+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:31:10.558606+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:31:14.133589+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:31:17.712169+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:31:21.312947+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:31:24.865817+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:31:28.411422+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:31:32.014214+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:31:35.643549+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:31:39.186595+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:31:43.015666+08:00", "event": "processes", "processes": []}
+{"time": "2026-10-19T22:31:45.018487+08:00", "event": "stopped"}

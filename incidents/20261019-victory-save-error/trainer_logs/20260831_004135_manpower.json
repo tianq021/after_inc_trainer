@@ -1,0 +1,15 @@
+{
+  "created_local": "2026-08-31 00:41:35",
+  "process": "After Inc. Revival.exe",
+  "pid": 30376,
+  "key": "manpower",
+  "target": 500.0,
+  "changes": [
+    {
+      "name": "manpower",
+      "address": "0x00000232F3B375A0",
+      "before_hex": "00000040",
+      "after_hex": "0000fa43"
+    }
+  ]
+}

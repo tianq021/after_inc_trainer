@@ -1,0 +1,46 @@
+游戏地图和探索更新太慢了，能不能做一个随机在地图上添加一个随机的自定义游戏地图，
+
+2026-10-14 新增待办：
+- 添加“战士升级”功能（待实现）。
+
+2026-10-14 战士升级版后续待办（soldier_upgrade_work）：
+1. 经验不对：核查战士经验的修改逻辑及其与实际等级、界面显示的对应关系，修正经验功能。当前原因尚未确认。
+2. 修改器页面太长：缩短界面、精简布局，同时保留所有功能及简短的功能简介。
+以上仅记录待办，尚未开始修复。
+
+
+2026-10-15 更新
+
+- 「战士升级」功能已完成并**实机验收通过**：修改器版本 25936576.1，入口在
+  `versions/25936576.1_game25936576/dist/build_25936576_1/AfterIncRevivalTrainer_CN.exe`。
+  「升级机会 +1」改为调用游戏原生升级事件，在所选战士所在区域生成可点击的原生升级图标。
+- 原第 1 条（经验不对）已定案：旧实现只调 IncrementLevel，不会产生升级图标，属于方向错误，现已替换。
+- 原第 2 条（界面太长）已完成：窗口 600×820 → 600×540，改为三个页签。
+- 版本号 25936576.1 已写入界面标题、EXE 文件版本与 version_info.txt。
+- 详细的排错过程与实际验证数据见 `versions/25936576.1_game25936576/下一步.txt`，
+  版本登记见 `versions/README.md`。
+
+尚未完成：
+
+- `dist\1..4` 按构建号改名：`after_inc_trainer` 与 `dist` 的所有者仍是旧沙箱账户
+  `LAPTOP-MGQ3TS3I\CodexSandboxOffline`，改名需先取回目录所有者身份。
+
+
+2026-10-15 合并完成
+
+按 AGENTS.md 第 2 条「测试通过后再合并文件夹」执行：
+
+- 根目录原有源码（trainer_gui.py、teams.py、task_extension.py、game_build.py、memory_scan.py、
+  expedition.py、AfterIncRevivalTrainer_CN.spec、native/、tests/）**整体移动**到
+  `versions/3337140_任务扩展版_20261014/`（目录名按第 5 条以 Steam 号 3337140 开头）。
+  是移动不是复制，没有删除任何原件。
+- 25936576.1 的对应文件复制到根目录，并新增 soldier_upgrade.py 与 version_info.txt。
+- 合并后**从根目录**跑 `python -m unittest discover -s tests` → 56 项通过。
+- 当前可用的 EXE 位置不变，仍是
+  `versions/25936576.1_game25936576/dist/build_25936576_1/AfterIncRevivalTrainer_CN.exe`；
+  `dist/` 里的旧程序一律未动。
+- 版本登记见 `versions/README.md`，合并后各文件哈希与回退方法见
+  `versions/3337140_任务扩展版_20261014/README.md`。
+
+若以后想从根目录直接打包，用：
+`python -m PyInstaller --noconfirm --distpath dist/build_25936576_1 --workpath build/build_25936576_1 AfterIncRevivalTrainer_CN.spec`

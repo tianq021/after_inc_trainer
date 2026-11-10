@@ -1,0 +1,15 @@
+{
+  "created_local": "2026-09-05 09:21:58",
+  "process": "After Inc. Revival.exe",
+  "pid": 28600,
+  "key": "patience",
+  "target": 500.0,
+  "changes": [
+    {
+      "name": "objective_patience",
+      "address": "0x0000027C0F566340",
+      "before_hex": "72020000",
+      "after_hex": "f4010000"
+    }
+  ]
+}
